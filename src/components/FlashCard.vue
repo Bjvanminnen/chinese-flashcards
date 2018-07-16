@@ -1,19 +1,30 @@
 <template>
   <div id="card">
-    <div class="chinese-character">{{character}}</div>
+    <div class="chinese-character">{{char.chinese}}</div>
     <div class="eye" v-if="hidden" @click="hidden = !hidden">👁️</div>
-    <div class="answer" v-if="!hidden">{{answer}}</div>
+    <div class="answer" v-if="!hidden">
+      <div class="pinyin">{{char.pinyin}}</div>
+      <div>{{char.english}}</div>
+    </div>
+    <div @click="newChar">Next</div>
   </div>
 </template>
 
 <script>
+import { getCharacter } from '../library';
+
 export default {
   name: 'HelloWorld',
   data () {
     return {
-      character: '水',
+      char: getCharacter(),
       hidden: true,
-      answer: "water"
+    }
+  },
+  methods: {
+    newChar() {
+      this.char = getCharacter();
+      this.hidden = true;
     }
   }
 }
@@ -42,5 +53,8 @@ export default {
 }
 .answer {
   margin: auto
+}
+.pinyin {
+  font-family: 'Times New Roman', serif;
 }
 </style>
