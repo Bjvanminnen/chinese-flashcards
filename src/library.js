@@ -39,11 +39,11 @@ const characters = [
 
   ['鱼', 'yú', 'fish'],
   ['面', 'miàn', 'noodles'],
-  ['吃', 'ch', '	eat'],
+  ['吃', 'chī', '	eat'],
   ['饭', 'fàn', 'rice / meal'],
-  ['喝', 'h', '	to drink'],
+  ['喝', 'hē', '	to drink'],
   ['茶', 'chá', 'tea'],
-  ['不', 'bù', 'not'],  
+  ['不', 'bù', 'not'],
 ];
 
 let currentCharacter = -1;
