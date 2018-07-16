@@ -1,12 +1,16 @@
 <template>
   <div id="card">
-    <div class="chinese-character">{{char.chinese}}</div>
-    <div class="eye" v-if="hidden" @click="hidden = !hidden">👁️</div>
+    <div class="chinese-character">
+      <div>{{char.chinese}}</div>
+    </div>
+    <div class="eye" v-if="hidden" @click="hidden = !hidden">
+      👁️
+    </div>
     <div class="answer" v-if="!hidden">
       <div class="pinyin">{{char.pinyin}}</div>
-      <div>{{char.english}}</div>
+      <div class="english">{{char.english}}</div>
     </div>
-    <div @click="newChar">Next</div>
+    <div class="next" @click="newChar">⏭️</div>
   </div>
 </template>
 
@@ -40,21 +44,40 @@ export default {
   flex-direction: column;
   text-align: center;
 }
+.next {
+  text-align: right;
+  margin: auto;
+  width: 80%;
+  font-size: 40px;
+  cursor: pointer;
+}
 .chinese-character {
   font-size: 72px;
 }
 .eye {
-  height: 150px;
+  height: 130px;
   margin: auto;
   width: 80%;
-  font-size: 50px;
+  font-size: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px dashed black;
   cursor: pointer;
+  box-sizing: border-box;
 }
 .answer {
-  margin: auto
+  margin: auto;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 32px;
 }
 .pinyin {
   font-family: 'Times New Roman', serif;
+}
+.english {
+  margin-bottom: 10px;
 }
 </style>

@@ -36,6 +36,14 @@ const characters = [
   ['的', 'de', 'makes personal pronouns possessive'],
   ['果', 'guŏ', 'fruit'],
   ['水', 'shuĭ', 'water'],
+
+  ['鱼', 'yú', 'fish'],
+  ['面', 'miàn', 'noodles'],
+  ['吃', 'ch', '	eat'],
+  ['饭', 'fàn', 'rice / meal'],
+  ['喝', 'h', '	to drink'],
+  ['茶', 'chá', 'tea'],
+  ['不', 'bù', 'not'],  
 ];
 
 let currentCharacter = -1;
