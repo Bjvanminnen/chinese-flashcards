@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <FlashCard/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import FlashCard from './components/FlashCard'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FlashCard
   }
 }
 </script>
@@ -20,9 +19,7 @@ export default {
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  -moz-osx-font-smoothing: grayscale;  
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
