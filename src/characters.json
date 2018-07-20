@@ -25,7 +25,7 @@
     ["孩", "hái", "child"],
     ["高兴", "gāoxìng", "happy (high happy)"],
     ["也", "yĕ", "also"],
-    ["认识", "rènshí", "to know (both characters seem to also mean this individually?)"],
+    ["认识", "rènshí", "to know"],
     ["王", "wáng", "king/a common surname"],
     ["李", "lǐ", "a common surname"],
     ["很", "hĕn", "very"],
@@ -56,6 +56,10 @@
     ["老", "lăo", "old/wise"],
     ["医", "yī", "doctor"],
     ["师", "shī", "master/teacher"],
-    ["张", "zhang", "a common surname"]
+    ["张", "zhang", "a common surname"],
+    
+    ["电", "diàn", "electric"],
+    ["话", "huà", "language/dialect"],
+    ["电话", "diànhuà", "phone"]
   ]
 }
