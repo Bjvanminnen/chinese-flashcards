@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 const characters = [
   ['你', 'nǐ', 'you'],
   ['好', 'hǎo', 'good'],
@@ -25,8 +27,8 @@ const characters = [
   ['高兴', 'gāoxìng', 'happy (high happy)'],
   ['也', 'yĕ', 'also'],
   ['认识', 'rènshí', 'to know (both characters seem to also mean this individually?)'],
-  ['王', 'wáng', 'king/surname'],
-  ['李', 'lǐ', 'surname'],
+  ['王', 'wáng', 'king/a common surname'],
+  ['李', 'lǐ', 'a common surname'],
   ['很', 'hĕn', 'very'],
   ['名字', 'míngzi', 'name character'],
   ['姓', 'xìng', 'surname'],
@@ -44,22 +46,24 @@ const characters = [
   ['喝', 'hē', '	to drink'],
   ['茶', 'chá', 'tea'],
   ['不', 'bù', 'not'],
+  ['呢', 'ne', 'and'],
+
+  ['学', 'xué', 'to study'],
+  ['他', 'tā', 'he'],
+  ['她', 'tā', 'she'],
+  ['生', 'shēng', 'livelihood'],
+  ['学生', 'xuéshēng', 'student'],
+  ['们', 'men', 'plural suffix'],
+  ['老', 'lăo', 'old/wise'],
+  ['医', 'yī', 'doctor'],
+  ['师', 'shī', 'master/teacher'],
+  ['张', 'zhang', 'a common surname']
 ];
 
-let currentCharacter = -1;
-
-export function getCharacter() {
-  // Make sure we dont give the same character
-  let index;
-  do {
-    index = ~~(Math.random() * characters.length);
-  } while (index === currentCharacter);
-  currentCharacter = index;
-
-  const char = characters[index];
-  return {
-    chinese: char[0],
-    pinyin: char[1],
-    english: char[2],
-  };
+export function getShuffledCharacters() {
+  return _.shuffle(characters).map(c => ({
+    chinese: c[0],
+    pinyin: c[1],
+    english: c[2],
+  }));
 }

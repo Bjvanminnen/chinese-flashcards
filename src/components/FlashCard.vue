@@ -3,32 +3,59 @@
     <div class="chinese-character">
       <div>{{char.chinese}}</div>
     </div>
-    <div class="eye" v-if="hidden" @click="hidden = !hidden">
-      👁️
+    <div class="inner">
+      <div class="eye" v-if="hidden" @click="hidden = !hidden">
+        👁️
+      </div>
+      <div class="answer" v-if="!hidden">
+        <div class="pinyin">{{char.pinyin}}</div>
+        <div class="english">{{char.english}}</div>
+      </div>
+      <div class="container">
+        <div class="nav-button next" @click="newChar">⏭️</div>
+        <div class="nav-button" @click="prevChar" v-if="characterIndex !== 0">⏮️</div>
+      </div>
     </div>
-    <div class="answer" v-if="!hidden">
-      <div class="pinyin">{{char.pinyin}}</div>
-      <div class="english">{{char.english}}</div>
-    </div>
-    <div class="next" @click="newChar">⏭️</div>
   </div>
 </template>
 
 <script>
-import { getCharacter } from '../library';
+import { getShuffledCharacters } from '../library';
 
 export default {
   name: 'HelloWorld',
   data () {
     return {
-      char: getCharacter(),
+      characters: getShuffledCharacters(),
+      characterIndex: 0,
       hidden: true,
+    }
+  },
+  computed: {
+    char() {
+      return this.characters[this.characterIndex];
     }
   },
   methods: {
     newChar() {
-      this.char = getCharacter();
+      this.characterIndex += 1;
+      if (this.characterIndex >= this.characters.length) {
+        this.characters.push(...getShuffledCharacters());
+        if (this.characters[this.characterIndex].chinese ===
+            this.characters[this.characterIndex - 1].chinese) {
+          // if same as last letter, swap this with last new char
+          const temp = this.characters[this.characterIndex];
+          this.characters[this.characterIndex] = this.characters[this.characters.length - 1];
+          this.characters[this.characters.length - 1] = temp;
+        }
+      }
       this.hidden = true;
+    },
+    prevChar() {
+      if (this.characterIndex === 0) {
+        return;
+      }
+      this.characterIndex -= 1;
     }
   }
 }
@@ -44,20 +71,32 @@ export default {
   flex-direction: column;
   text-align: center;
 }
-.next {
-  text-align: right;
-  margin: auto;
-  width: 80%;
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.nav-button {
+  margin-top: 4px;
   font-size: 40px;
   cursor: pointer;
+  user-select: none;
+}
+.prev {
+  text-align: left;
+}
+.next {
+  text-align: right;
 }
 .chinese-character {
   font-size: 72px;
 }
-.eye {
-  height: 130px;
+.inner {
   margin: auto;
   width: 80%;
+}
+.eye {
+  height: 130px;
   font-size: 72px;
   display: flex;
   align-items: center;
