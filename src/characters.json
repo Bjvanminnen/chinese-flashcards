@@ -60,6 +60,12 @@
     
     ["电", "diàn", "electric"],
     ["话", "huà", "language/dialect"],
-    ["电话", "diànhuà", "phone"]
+    ["电话", "diànhuà", "phone"],
+    ["少", "shǎo", "few/less"],
+    ["多", "duō", "many / much / often..."],
+    ["码", "mǎ", "weight / number / code..."],
+    ["号", "hào", "ordinal number / day of a month / mark..."],
+    ["号码", "hàomǎ", "numbers"],
+    ["多少", "duōshǎo", "what's/how much/many"]
   ]
 }
