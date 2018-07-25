@@ -58,13 +58,14 @@
     ["师", "shī", "master/teacher"],
     ["张", "zhang", "a common surname"],
     
-    ["电", "diàn", "electric"],
-    ["话", "huà", "to talk/words"],
-    ["电话", "diànhuà", "phone"],
-    ["少", "shǎo", "few/less"],
-    ["多", "duō", "many / much / often..."],
-    ["码", "mǎ", "weight / number / code..."],
-    ["号", "hào", "ordinal number / day of a month / mark..."],
+    ["电", "diàn", "electric (电话 = telephone)"],
+    ["话", "huà", "words (电话 = telephone)"],
+    ["电话", "diànhuà", "telephone"],
+    ["多", "duō", "often (多少 = how much)"],
+    ["少", "shǎo", "few/less (多少 = how much)"],
+
+    ["码", "mǎ", "(hàomǎ = number)"],
+    ["号", "hào", "date/day of a month (号码 = number)"],
     ["号码", "hàomǎ", "numbers"],
     ["多少", "duōshǎo", "what's/how much/many"]
   ]
