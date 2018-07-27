@@ -67,6 +67,22 @@
     ["码", "mǎ", "(hàomǎ = number)"],
     ["号", "hào", "date/day of a month (号码 = number)"],
     ["号码", "hàomǎ", "numbers"],
-    ["多少", "duōshǎo", "what's/how much/many"]
+    ["多少", "duōshǎo", "what's/how much/many"],
+    ["中", "zhōng", "middle"],
+    ["国", "guó", "nation/country"],
+    ["中国"], "Zhōngguó", "China/Middle Kingdom"],
+    ["英", "yīng", "hero"],
+    ["哪", "nă", "where/which (participle)"],
+    ["美", "mĕi", "beauty/beautiful"],
+    ["美国", "mĕiguó", "America"],
+    ["英国", "yīngguó", "Britain"],
+    ["对", "duì", "correct"],
+    ["大", "dà", "big"],
+    ["拿", "ná", "to take"],
+    ["加", "jiā", "plus"],
+    ["都", "dōu", "all/both"],
+    ["加哪大", "jiānádà", "Canada"],
+  
+    
   ]
 }
