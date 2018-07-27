@@ -1,19 +1,22 @@
 <template>
-  <div id="card">
-    <div class="chinese-character">
-      <div>{{char.chinese}}</div>
-    </div>
-    <div class="inner">
-      <div class="eye" v-if="hidden" @click="hidden = !hidden">
-        👁️
+  <div>
+    {{(characterIndex + 1)}} / {{characters.length}}
+    <div id="card">
+      <div class="chinese-character">
+        <div>{{char.chinese}}</div>
       </div>
-      <div class="answer" v-if="!hidden">
-        <div class="pinyin">{{char.pinyin}}</div>
-        <div class="english">{{char.english}}</div>
-      </div>
-      <div class="container">
-        <div class="nav-button next" @click="newChar">⏭️</div>
-        <div class="nav-button" @click="prevChar" v-if="characterIndex !== 0">⏮️</div>
+      <div class="inner">
+        <div class="eye" v-if="hidden" @click="hidden = !hidden">
+          👁️
+        </div>
+        <div class="answer" v-if="!hidden">
+          <div class="pinyin">{{char.pinyin}}</div>
+          <div class="english">{{char.english}}</div>
+        </div>
+        <div class="container">
+          <div class="nav-button next" @click="newChar">⏭️</div>
+          <div class="nav-button" @click="prevChar" v-if="characterIndex !== 0">⏮️</div>
+        </div>
       </div>
     </div>
   </div>
