@@ -3,22 +3,20 @@
     {{(characterIndex + 1)}} / {{characters.length}}
     <div id="card">
       <div v-if="characters.length === 0">Loading</div>
-      <div v-if="characters.length > 0">
+      <div v-if="characters.length > 0" class="loaded">
         <div class="chinese-character">
           <div>{{char.chinese}}</div>
         </div>
-        <div class="inner">
-          <div class="eye" v-if="hidden" @click="hidden = !hidden">
-            👁️
-          </div>
-          <div class="answer" v-if="!hidden">
-            <div class="pinyin">{{char.pinyin}}</div>
-            <div class="english">{{char.english}}</div>
-          </div>
-          <div class="container">
-            <div class="nav-button next" @click="newChar">⏭️</div>
-            <div class="nav-button" @click="prevChar" v-if="characterIndex !== 0">⏮️</div>
-          </div>
+        <div class="eye" v-if="hidden" @click="hidden = !hidden">
+          👁️
+        </div>
+        <div class="answer" v-if="!hidden">
+          <div class="pinyin">{{char.pinyin}}</div>
+          <div class="english">{{char.english}}</div>
+        </div>
+        <div class="container">
+          <div class="nav-button next" @click="newChar">⏭️</div>
+          <div class="nav-button" @click="prevChar" v-if="characterIndex !== 0">⏮️</div>
         </div>
       </div>
     </div>
@@ -83,10 +81,16 @@ export default {
 #card {
   border: 1px solid black;
   width: 300px;
-  height: 300px;
+  height: 360px;
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+.loaded {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .container {
   display: flex;
@@ -108,10 +112,6 @@ export default {
 .chinese-character {
   font-size: 72px;
 }
-.inner {
-  margin: auto;
-  width: 80%;
-}
 .eye {
   height: 130px;
   font-size: 72px;
@@ -122,18 +122,26 @@ export default {
   cursor: pointer;
   box-sizing: border-box;
 }
+
+.eye, .container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 .answer {
   margin: auto;
-  height: 130px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  font-size: 32px;
 }
 .pinyin {
   font-family: 'Times New Roman', serif;
+  font-size: 32px;
+  margin-bottom: 5px;
 }
 .english {
   margin-bottom: 10px;
+  font-size: 20px;
 }
 </style>
