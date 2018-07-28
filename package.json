@@ -9,7 +9,7 @@
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "deploy": "\cp now.json dist/ && cd dist && now"
+    "deploy": "npm run build && cp now.json dist/ && cd dist && now && now alias"
   },
   "dependencies": {
     "eslint-config-react-app": "^2.1.0",
