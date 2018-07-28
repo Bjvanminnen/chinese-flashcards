@@ -2,20 +2,23 @@
   <div>
     {{(characterIndex + 1)}} / {{characters.length}}
     <div id="card">
-      <div class="chinese-character">
-        <div>{{char.chinese}}</div>
-      </div>
-      <div class="inner">
-        <div class="eye" v-if="hidden" @click="hidden = !hidden">
-          👁️
+      <div v-if="characters.length === 0">Loading</div>
+      <div v-if="characters.length > 0">
+        <div class="chinese-character">
+          <div>{{char.chinese}}</div>
         </div>
-        <div class="answer" v-if="!hidden">
-          <div class="pinyin">{{char.pinyin}}</div>
-          <div class="english">{{char.english}}</div>
-        </div>
-        <div class="container">
-          <div class="nav-button next" @click="newChar">⏭️</div>
-          <div class="nav-button" @click="prevChar" v-if="characterIndex !== 0">⏮️</div>
+        <div class="inner">
+          <div class="eye" v-if="hidden" @click="hidden = !hidden">
+            👁️
+          </div>
+          <div class="answer" v-if="!hidden">
+            <div class="pinyin">{{char.pinyin}}</div>
+            <div class="english">{{char.english}}</div>
+          </div>
+          <div class="container">
+            <div class="nav-button next" @click="newChar">⏭️</div>
+            <div class="nav-button" @click="prevChar" v-if="characterIndex !== 0">⏮️</div>
+          </div>
         </div>
       </div>
     </div>
@@ -29,10 +32,21 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      characters: getShuffledCharacters(),
+      unshuffled: [],
+      characters: [],
       characterIndex: 0,
       hidden: true,
     }
+  },
+  created() {
+    // Get our characters async from github so I don't need to redeploy app whenever i add
+    // characters (all i need to do is edit the json file)
+    fetch('https://raw.githubusercontent.com/Bjvanminnen/chinese-flashcards/master/src/characters.json')
+      .then(result => result.json())
+      .then(json => {
+        this.unshuffled.push(...json.characters);
+        this.characters = getShuffledCharacters(this.unshuffled);
+      });
   },
   computed: {
     char() {
@@ -43,7 +57,7 @@ export default {
     newChar() {
       this.characterIndex += 1;
       if (this.characterIndex >= this.characters.length) {
-        this.characters.push(...getShuffledCharacters());
+        this.characters.push(...getShuffledCharacters(this.unshuffled));
         if (this.characters[this.characterIndex].chinese ===
             this.characters[this.characterIndex - 1].chinese) {
           // if same as last letter, swap this with last new char
