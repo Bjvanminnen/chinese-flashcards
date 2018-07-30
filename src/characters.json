@@ -81,6 +81,16 @@
     ["拿", "ná", "to take"],
     ["加", "jiā", "plus"],
     ["都", "dōu", "all/both"],
-    ["加哪大", "jiānádà", "Canada"]
+    ["加哪大", "jiānádà", "Canada"],
+    ["忙", "máng", "busy"],
+    ["早", "zǎo", "early/morning (早上 = morning)"],
+    ["上", "shàng", "up (早上 = morning)"],
+    ["早上", "zǎoshàng", "morning"],
+    ["怎", "zěn", "how"],
+    ["今", "jīn", "this (今天 = today)"],
+    ["天", "tiān", "sky/day (今天 = today)"],
+    ["今天", "jīntiān", "today"],
+    ["样", "yàng", "shape"],
+    ["怎么样", "zěnmeyàng", "how are things"]
   ]
 }
