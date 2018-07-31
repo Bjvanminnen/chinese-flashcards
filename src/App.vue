@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <FlashCard/>
+    <LoadFlashCard/>
   </div>
 </template>
 
 <script>
-import FlashCard from './components/FlashCard'
+import LoadFlashCard from './components/LoadFlashCard'
 
 export default {
   name: 'App',
   components: {
-    FlashCard
+    LoadFlashCard
   }
 }
 </script>

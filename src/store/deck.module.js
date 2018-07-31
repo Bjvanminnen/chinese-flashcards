@@ -20,7 +20,7 @@ const getters = {
     return state.viewedStack.length > 0;
   },
   hasPrevious(state) {
-    return state.currentIndex > 0;
+    return state.currentIndex > 1;
   },
   currentChar(state) {
     return state.viewedStack[state.currentIndex];

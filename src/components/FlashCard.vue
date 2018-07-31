@@ -1,8 +1,7 @@
 <template>
   <div>
     <div id="card">
-      <div v-if="!isLoaded">Loading</div>
-      <div v-if="isLoaded" class="loaded">
+      <div class="loaded">
         <div class="chinese-character">
           <div>{{currentChar.chinese}}</div>
         </div>
@@ -24,7 +23,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import { GET_CHARACTERS, NEXT_CARD, PREV_CARD } from '../store/deck.module';
+import { NEXT_CARD, PREV_CARD } from '../store/deck.module';
 
 export default {
   name: 'FlashCard',
@@ -33,12 +32,8 @@ export default {
       hidden: true,
     }
   },
-  created() {
-    this.$store.dispatch(GET_CHARACTERS);
-  },
   computed: {
     ...mapGetters([
-      'isLoaded',
       'hasPrevious',
       'currentChar'
     ])
