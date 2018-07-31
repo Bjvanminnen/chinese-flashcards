@@ -1,6 +1,5 @@
 <template>
   <div>
-    {{(characterIndex + 1)}} / {{characters.length}}
     <div id="card">
       <div v-if="characters.length === 0">Loading</div>
       <div v-if="characters.length > 0" class="loaded">
@@ -24,53 +23,36 @@
 </template>
 
 <script>
-import { getShuffledCharacters } from '../library';
+import { GET_CHARACTERS, NEXT_CARD, PREV_CARD } from '../store/deck.module';
 
 export default {
-  name: 'HelloWorld',
+  name: 'FlashCard',
   data () {
     return {
-      unshuffled: [],
-      characters: [],
-      characterIndex: 0,
       hidden: true,
     }
   },
   created() {
-    // Get our characters async from github so I don't need to redeploy app whenever i add
-    // characters (all i need to do is edit the json file)
-    fetch('https://raw.githubusercontent.com/Bjvanminnen/chinese-flashcards/master/src/characters.json')
-      .then(result => result.json())
-      .then(json => {
-        this.unshuffled.push(...json.characters);
-        this.characters = getShuffledCharacters(this.unshuffled);
-      });
+    this.$store.dispatch(GET_CHARACTERS);
   },
   computed: {
+    characters() {
+      return this.$store.state.deck.viewedStack;
+    },
+    characterIndex() {
+      return this.$store.state.deck.currentIndex;
+    },
     char() {
-      return this.characters[this.characterIndex];
+      return this.$store.getters.currentChar;
     }
   },
   methods: {
     newChar() {
-      this.characterIndex += 1;
-      if (this.characterIndex >= this.characters.length) {
-        this.characters.push(...getShuffledCharacters(this.unshuffled));
-        if (this.characters[this.characterIndex].chinese ===
-            this.characters[this.characterIndex - 1].chinese) {
-          // if same as last letter, swap this with last new char
-          const temp = this.characters[this.characterIndex];
-          this.characters[this.characterIndex] = this.characters[this.characters.length - 1];
-          this.characters[this.characters.length - 1] = temp;
-        }
-      }
+      this.$store.commit(NEXT_CARD);
       this.hidden = true;
     },
     prevChar() {
-      if (this.characterIndex === 0) {
-        return;
-      }
-      this.characterIndex -= 1;
+      this.$store.commit(PREV_CARD);
     }
   }
 }
