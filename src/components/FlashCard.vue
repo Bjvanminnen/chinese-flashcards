@@ -1,21 +1,21 @@
 <template>
   <div>
     <div id="card">
-      <div v-if="characters.length === 0">Loading</div>
-      <div v-if="characters.length > 0" class="loaded">
+      <div v-if="!isLoaded">Loading</div>
+      <div v-if="isLoaded" class="loaded">
         <div class="chinese-character">
-          <div>{{char.chinese}}</div>
+          <div>{{currentChar.chinese}}</div>
         </div>
         <div class="eye" v-if="hidden" @click="hidden = !hidden">
           👁️
         </div>
         <div class="answer" v-if="!hidden">
-          <div class="pinyin">{{char.pinyin}}</div>
-          <div class="english">{{char.english}}</div>
+          <div class="pinyin">{{currentChar.pinyin}}</div>
+          <div class="english">{{currentChar.english}}</div>
         </div>
         <div class="container">
           <div class="nav-button next" @click="newChar">⏭️</div>
-          <div class="nav-button" @click="prevChar" v-if="characterIndex !== 0">⏮️</div>
+          <div class="nav-button" @click="prevChar" v-if="hasPrevious">⏮️</div>
         </div>
       </div>
     </div>
@@ -23,6 +23,7 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
 import { GET_CHARACTERS, NEXT_CARD, PREV_CARD } from '../store/deck.module';
 
 export default {
@@ -36,15 +37,11 @@ export default {
     this.$store.dispatch(GET_CHARACTERS);
   },
   computed: {
-    characters() {
-      return this.$store.state.deck.viewedStack;
-    },
-    characterIndex() {
-      return this.$store.state.deck.currentIndex;
-    },
-    char() {
-      return this.$store.getters.currentChar;
-    }
+    ...mapGetters([
+      'isLoaded',
+      'hasPrevious',
+      'currentChar'
+    ])
   },
   methods: {
     newChar() {

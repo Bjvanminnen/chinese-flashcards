@@ -16,6 +16,12 @@ const state = {
 };
 
 const getters = {
+  isLoaded(state) {
+    return state.viewedStack.length > 0;
+  },
+  hasPrevious(state) {
+    return state.currentIndex > 0;
+  },
   currentChar(state) {
     return state.viewedStack[state.currentIndex];
   }
