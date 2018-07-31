@@ -1,19 +1,19 @@
 <template>
   <div>
     <div v-if="!isLoaded">Loading...</div>
-    <FlashCard v-if="isLoaded"/>
+    <CardManager v-if="isLoaded"/>
   </div>
 </template>
 
 <script>
   import { mapGetters } from 'vuex';
-  import FlashCard from './FlashCard';
+  import CardManager from './CardManager';
   import { GET_CHARACTERS } from '../store/deck.module';
 
   export default {
     name: 'Loading',
     components: {
-      FlashCard,
+      CardManager,
     },
     computed: {
       ...mapGetters([

@@ -7,23 +7,31 @@ const INIT_CHARACTERS = 'deck/INIT_CHARACTERS';
 const RESET_DECK = 'deck/RESET_DECK';
 export const NEXT_CARD = 'deck/NEXT_CARD';
 export const PREV_CARD = 'deck/PREV_CARD';
+export const SHOW_ANSWER = 'deck/SHOW_ANSWER';
 
 const state = {
   viewedStack: [],
   unseen: [],
   currentIndex: -1,
   unshuffled: [],
+
+  // TODO: belongs in separate module
+  answerHidden: true,
 };
 
 const getters = {
+  // TODO: arrow funcs?
   isLoaded(state) {
     return state.viewedStack.length > 0;
   },
   hasPrevious(state) {
-    return state.currentIndex > 1;
+    return state.currentIndex > 0;
   },
   currentChar(state) {
     return state.viewedStack[state.currentIndex];
+  },
+  answerHidden(state) {
+    return state.answerHidden;
   }
 };
 
@@ -64,6 +72,7 @@ const mutations = {
 
       // move from unseen to viewed stack
       state.viewedStack.push(state.unseen.shift());
+      state.answerHidden = true;
     }
 
     state.currentIndex++;
@@ -74,7 +83,11 @@ const mutations = {
       throw new Error('cant go back');
     }
     state.currentIndex -= 1;
-  }
+  },
+
+  [SHOW_ANSWER] (state) {
+    state.answerHidden = false;
+  },
 }
 
 export default {

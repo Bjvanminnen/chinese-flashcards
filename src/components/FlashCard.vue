@@ -5,16 +5,12 @@
         <div class="chinese-character">
           <div>{{currentChar.chinese}}</div>
         </div>
-        <div class="eye" v-if="hidden" @click="hidden = !hidden">
+        <div class="eye" v-if="answerHidden" @click="unhide">
           👁️
         </div>
-        <div class="answer" v-if="!hidden">
+        <div class="answer" v-if="!answerHidden">
           <div class="pinyin">{{currentChar.pinyin}}</div>
           <div class="english">{{currentChar.english}}</div>
-        </div>
-        <div class="container">
-          <div class="nav-button next" @click="newChar">⏭️</div>
-          <div class="nav-button" @click="prevChar" v-if="hasPrevious">⏮️</div>
         </div>
       </div>
     </div>
@@ -22,30 +18,21 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
-import { NEXT_CARD, PREV_CARD } from '../store/deck.module';
+import { mapGetters, mapMutations } from 'vuex';
+import { SHOW_ANSWER } from '../store/deck.module';
 
 export default {
   name: 'FlashCard',
-  data () {
-    return {
-      hidden: true,
-    }
-  },
   computed: {
     ...mapGetters([
-      'hasPrevious',
-      'currentChar'
+      'currentChar',
+      'answerHidden'
     ])
   },
   methods: {
-    newChar() {
-      this.$store.commit(NEXT_CARD);
-      this.hidden = true;
-    },
-    prevChar() {
-      this.$store.commit(PREV_CARD);
-    }
+    ...mapMutations({
+      unhide: SHOW_ANSWER
+    })
   }
 }
 </script>
@@ -70,18 +57,6 @@ export default {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-}
-.nav-button {
-  margin-top: 4px;
-  font-size: 40px;
-  cursor: pointer;
-  user-select: none;
-}
-.prev {
-  text-align: left;
-}
-.next {
-  text-align: right;
 }
 .chinese-character {
   font-size: 72px;
