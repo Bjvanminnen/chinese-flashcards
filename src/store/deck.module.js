@@ -16,19 +16,10 @@ const state = {
 };
 
 const getters = {
-  // TODO: arrow funcs?
-  isLoaded(state) {
-    return state.viewedStack.length > 0;
-  },
-  hasPrevious(state) {
-    return state.currentIndex > 0;
-  },
-  currentChar(state) {
-    return state.viewedStack[state.currentIndex];
-  },
-  onCurrentChar(state) {
-    return state.currentIndex + 1 === state.viewedStack.length;
-  }
+  isLoaded: state => state.viewedStack.length > 0,
+  hasPrevious: state => state.currentIndex > 0,
+  currentChar: state => state.viewedStack[state.currentIndex],
+  onCurrentChar: state => state.currentIndex + 1 === state.viewedStack.length
 };
 
 const actions = {
