@@ -41,7 +41,6 @@
     methods: {
       newChar() {
         this.$store.commit(NEXT_CARD);
-        this.hidden = true;
       },
       prevChar() {
         this.$store.commit(PREV_CARD);

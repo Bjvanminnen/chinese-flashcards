@@ -4,10 +4,10 @@
       <div class="chinese-character">
         <div>{{currentChar.chinese}}</div>
       </div>
-      <div class="eye" v-if="answerHidden" @click="unhide">
+      <div class="eye" v-if="hidden" @click="hidden = false">
         👁️
       </div>
-      <div class="answer" v-if="!answerHidden">
+      <div class="answer" v-if="!hidden">
         <div class="pinyin">{{currentChar.pinyin}}</div>
         <div class="english">{{currentChar.english}}</div>
       </div>
@@ -17,20 +17,24 @@
 
 <script>
 import { mapGetters, mapMutations } from 'vuex';
-import { SHOW_ANSWER } from '../store/deck.module';
 
 export default {
   name: 'FlashCard',
+  data: () => {
+    return {
+      hidden: true
+    };
+  },
   computed: {
     ...mapGetters([
       'currentChar',
-      'answerHidden'
+      'onCurrentChar',
     ])
   },
-  methods: {
-    ...mapMutations({
-      unhide: SHOW_ANSWER
-    })
+  watch: {
+    currentChar() {
+      this.hidden = true;
+    }
   }
 }
 </script>
