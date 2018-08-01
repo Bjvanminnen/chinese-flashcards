@@ -8,8 +8,8 @@
         <CardCounts/>
         <FlashCard/>
         <div class="answer-button-container">
-          <div class="button answer-button" @click="newChar" v-if="onCurrentChar">❌</div>
-          <div class="button answer-button" @click="newChar" v-if="onCurrentChar">✅</div>
+          <div class="button answer-button" @click="answerIncorrect" v-if="onCurrentChar">❌</div>
+          <div class="button answer-button" @click="answerCorrect" v-if="onCurrentChar">✅</div>
           <div class="button" v-if="!onCurrentChar">&nbsp;</div>
         </div>
       </div>
@@ -39,6 +39,13 @@
       ])
     },
     methods: {
+      answerCorrect() {
+        this.$store.commit(NEXT_CARD, true);
+      },
+      answerIncorrect() {
+        this.$store.commit(NEXT_CARD, false);
+      },
+      // TODO: think about naming
       newChar() {
         this.$store.commit(NEXT_CARD);
       },

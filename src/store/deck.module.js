@@ -13,13 +13,19 @@ const state = {
   unseen: [],
   currentIndex: -1,
   unshuffled: [],
+  correctStack: [],
+  incorrectStack: [],
 };
 
 const getters = {
   isLoaded: state => state.viewedStack.length > 0,
   hasPrevious: state => state.currentIndex > 0,
   currentChar: state => state.viewedStack[state.currentIndex],
-  onCurrentChar: state => state.currentIndex + 1 === state.viewedStack.length
+  onCurrentChar: state => state.currentIndex + 1 === state.viewedStack.length,
+
+  numRemaining: state => state.unseen.length,
+  numCorrect: state => state.correctStack.length,
+  numIncorrect: state => state.incorrectStack.length,
 };
 
 const actions = {
@@ -49,13 +55,22 @@ const mutations = {
     state.unseen = getShuffledCharacters(state.unshuffled);
   },
 
-  [NEXT_CARD] (state) {
+  [NEXT_CARD] (state, correct) {
     if (state.currentIndex + 1 === state.viewedStack.length) {
+      const curChar = state.viewedStack[state.viewedStack.length - 1];
+      if (correct === true) {
+        state.correctStack.push(curChar);
+      } else if (correct === false) {
+        state.incorrectStack.push(curChar);
+      }
+
       if (state.unseen.length === 0) {
         state.unseen = getShuffledCharacters(state.unshuffled);
         // TODO: In the case where we got a new batch of cards, make sure we have
         // a different character
       }
+
+      // TODO: can also pull from incorrect stack
 
       // move from unseen to viewed stack
       state.viewedStack.push(state.unseen.shift());
