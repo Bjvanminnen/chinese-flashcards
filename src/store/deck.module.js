@@ -34,7 +34,7 @@ const actions = {
     fetch('https://raw.githubusercontent.com/Bjvanminnen/chinese-flashcards/master/src/characters.json')
     .then(result => result.json())
     .then(json => {
-      commit(INIT_CHARACTERS, json.characters.slice(0, 5));
+      commit(INIT_CHARACTERS, json.characters);
       commit(RESET_DECK);
       commit(NEXT_CARD);
     });
