@@ -34,7 +34,7 @@ const actions = {
     fetch('https://raw.githubusercontent.com/Bjvanminnen/chinese-flashcards/master/src/characters.json')
     .then(result => result.json())
     .then(json => {
-      commit(INIT_CHARACTERS, json.characters);
+      commit(INIT_CHARACTERS, json.characters.slice(0, 5));
       commit(RESET_DECK);
       commit(NEXT_CARD);
     });
@@ -57,6 +57,27 @@ const mutations = {
 
   [NEXT_CARD] (state, correct) {
     if (state.currentIndex + 1 === state.viewedStack.length) {
+      if (state.unseen.length === 0 && state.incorrectStack.length === 0) {
+        state.unseen = getShuffledCharacters(state.unshuffled);
+        // TODO: In the case where we got a new batch of cards, make sure we have
+        // a different character
+      }
+
+      let nextChar;
+      const r = ~~(Math.random() * (state.unseen.length + state.incorrectStack.length));
+      if (r < state.unseen.length) {
+        // Just pull the next one off the front since they've already been shuffled
+        nextChar = state.unseen.shift();
+      } else {
+        // pull from incorrect stack
+        // TODO: kind of weird that after we've pulled a wrong char, it's not
+        // included in any of our counts
+        nextChar = state.incorrectStack.splice(r - state.unseen.length, 1)[0];
+      }
+
+      // adjust our correct/incorrect stacks
+      // Important that this happens after grabbing our next char so that we dont
+      // grab this last one we just got wrong
       const curChar = state.viewedStack[state.viewedStack.length - 1];
       if (correct === true) {
         state.correctStack.push(curChar);
@@ -64,16 +85,7 @@ const mutations = {
         state.incorrectStack.push(curChar);
       }
 
-      if (state.unseen.length === 0) {
-        state.unseen = getShuffledCharacters(state.unshuffled);
-        // TODO: In the case where we got a new batch of cards, make sure we have
-        // a different character
-      }
-
-      // TODO: can also pull from incorrect stack
-
-      // move from unseen to viewed stack
-      state.viewedStack.push(state.unseen.shift());
+      state.viewedStack.push(nextChar);
     }
 
     state.currentIndex++;

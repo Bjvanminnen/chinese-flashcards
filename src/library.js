@@ -1,5 +1,7 @@
 import _ from 'lodash';
 
+// TODO: should really have deterministic shuffling/randomness
+
 export function getShuffledCharacters(characters) {
   return _.shuffle(characters).map(c => ({
     chinese: c[0],
