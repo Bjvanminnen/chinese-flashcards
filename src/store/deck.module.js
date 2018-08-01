@@ -30,6 +30,9 @@ const getters = {
   currentChar(state) {
     return state.viewedStack[state.currentIndex];
   },
+  onCurrentChar(state) {
+    return state.currentIndex + 1 === state.viewedStack.length;
+  },
   answerHidden(state) {
     return state.answerHidden;
   }
