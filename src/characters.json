@@ -91,6 +91,19 @@
     ["天", "tiān", "sky/day (今天 = today)"],
     ["今天", "jīntiān", "today"],
     ["样", "yàng", "shape (怎么样 = how are things)"],
-    ["怎么样", "zěnmeyàng", "how are things"]
+    ["怎么样", "zěnmeyàng", "how are things"],
+    
+    ["家", "jiā", "home"],
+    ["在", "zài", "in/at/present"],
+    ["北", "běi", "north (北京 = Beijing)"],
+    ["京", "jīng", "capital (北京 = Beijing)"],
+    ["北京", "běijīng" "Beijing"],
+    ["港", "gǎng", "port (香港 = Hong Kong)"],
+    ["纽", "niǔ", "tie (纽约 = New York)"],
+    ["约", "yuē", "to arrange (纽约 = New York)"],
+    ["儿", "er", "son (哪儿 = where)"],
+    ["香", "xiāng", "fragrant (香港 = Hong Kong)"],
+    ["纽约", "niǔyuē", "New York"],
+    ["香港", "xiānggǎng", "Hong Kong"]
   ]
 }
