@@ -112,6 +112,18 @@
     ["伦敦", "lúndūn", "London"],
     ["台", "tái", "desk (台湾 = Taiwan)"],
     ["湾", "wān", "bay (台湾 = Taiwan)"],
-    ["台湾", "táiwān", "Taiwan"]
+    ["台湾", "táiwān", "Taiwan"],
+    
+    ["谢", "xiè", "to thank"],
+    ["气", "qì", "air (不客气 = you're welcome)"],
+    ["客", "kè", "welcome (不客气 = you're welcome)"],
+    ["关", "guān", "(没关系 = no worries)"],
+    ["系", "xì", "(没关系 = no worries)"],
+    ["起", "qǐ", "(对不起 = sorry)"],
+    ["没", "méi", "(没关系 = no worries)"],
+    ["没关系", "méiguānqǐ", "no worries)"],
+    ["对不起", "duìbùqǐ", "sorry"]
+    
+    
   ]
 }
