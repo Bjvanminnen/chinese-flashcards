@@ -122,7 +122,20 @@
     ["起", "qǐ", "(对不起 = sorry)"],
     ["没", "méi", "(没关系 = no worries)"],
     ["没关系", "méiguānqǐ", "no worries)"],
-    ["对不起", "duìbùqǐ", "sorry"]
+    ["对不起", "duìbùqǐ", "sorry"],
+   
+    ["妈", "mā", "mother 妈妈"],
+    ["爱", "ài", "love"],
+    ["爸", "bà", "dad 爸爸"],
+    ["家人", "jiārén", "family"],
+    ["个", "gè", "measure word for people/objects"],
+    ["一个", "yígè", ""],
+    ["谁", "shéi", "who"],
+    ["那", "nà", "that"],
+    ["这", "zhè", "this/the/here"],
+    ["有", "yǒu", "have"],
+    ["姐", "jiě", "older sister 姐姐"],
+    ["哥", "gē", "older brother 哥哥"],
     
     
   ]
