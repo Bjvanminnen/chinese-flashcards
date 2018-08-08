@@ -120,7 +120,7 @@
     ["关", "guān", "(没关系 = no worries)"],
     ["系", "xì", "(没关系 = no worries)"],
     ["起", "qǐ", "(对不起 = sorry)"],
-    ["没", "méi", "(没关系 = no worries)"],
+    ["没", "méi", "not/don't (没关系 = no worries)"],
     ["没关系", "méiguānqǐ", "no worries)"],
     ["对不起", "duìbùqǐ", "sorry"],
    
@@ -136,7 +136,9 @@
     ["有", "yǒu", "have"],
     ["姐", "jiě", "older sister 姐姐"],
     ["哥", "gē", "older brother 哥哥"],
-    
+    ["弟", "dì", "younger brother 弟弟"],
+    ["和", "hé", "and"],
+    ["妹", "mèi", "younger sister 妹妹"]
     
   ]
 }
