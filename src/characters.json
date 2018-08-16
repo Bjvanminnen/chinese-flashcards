@@ -141,11 +141,11 @@
     ["妹", "mèi", "younger sister 妹妹"],
     
     ["会", "huì", "一会儿 = in a bit"],
-    ["安", "ān", "早安 = good morning"],
-    ["晚", "", "晚安 = goodnight"],
-    ["最", "zuì", "最近 = recently"],
+    ["安", "ān", "peace/safety (早安 = good morning)"],
+    ["晚", "wǎn", "evening (晚安 = good night)"],
+    ["最", "zuì", "most (最近 = recently)"],
     ["错", "cuò", "fine (不错 = not bad)"],
-    ["近", "jìn", "最近 = recently"],
+    ["近", "jìn", "near (最近 = recently)"],
     ["久", "jiǔ", "long time"]
     
   ]
