@@ -3,7 +3,7 @@
     ["你", "nǐ", "you"],
     ["好", "hǎo", "good"],
     ["再", "zài", "again (再见 = goodbye)"],
-    ["见", "jiàn", "see (再见 = goodbye)"],
+    ["见", "jiàn", "see/meet (再见 = goodbye)"],
     ["零", "líng", "zero"],
     ["一", "yī", "one"],
     ["二", "èr", "two"],
@@ -138,7 +138,15 @@
     ["哥", "gē", "older brother 哥哥"],
     ["弟", "dì", "younger brother 弟弟"],
     ["和", "hé", "and"],
-    ["妹", "mèi", "younger sister 妹妹"]
+    ["妹", "mèi", "younger sister 妹妹"],
+    
+    ["会", "huì", "一会儿 = in a bit"],
+    ["安", "ān", "早安 = good morning"],
+    ["晚", "", "晚安 = goodnight"],
+    ["最", "zuì", "最近 = recently"],
+    ["错", "cuò", "fine (不错 = not bad)"],
+    ["近", "jìn", "最近 = recently"],
+    ["久", "jiǔ", "long time"]
     
   ]
 }
