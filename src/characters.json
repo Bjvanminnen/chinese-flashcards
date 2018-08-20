@@ -145,7 +145,19 @@
     ["最", "zuì", "most/superlative (最近 = recently)"],
     ["错", "cuò", "fine (不错 = not bad)"],
     ["近", "jìn", "near (最近 = recently)"],
-    ["久", "jiǔ", "long time"]
+    ["久", "jiǔ", "long time"],
+    
+    ["知", "zhī", "(知道 = know)"],
+    ["问", "wèn", "ask"],
+    ["道", "dào", "(知道 = know)"],
+    ["请", "qǐng", "please (请问 = excuse me)"],
+    ["语", "yǔ", "language (汉语 = Chinese)"],
+    ["汉", "hàn", "Han dynasty (汉语 = Chinese)"],
+    ["说" "shuō", "to say/speak"],
+    ["帮", "bāng", "帮助 = help"],
+    ["助", "zhù", "帮助 = help"],
+    ["次", "cì", "time (一次 = once)"]
+                     
     
   ]
 }
