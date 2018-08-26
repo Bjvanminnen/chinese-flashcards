@@ -169,11 +169,8 @@
     ["洗", "xǐ", "to wash (洗手间 = toilet)"],
     ["手", "shǒu", "hand (洗手间 = toilet)"],
     ["院", "yuàn", "hospital"],
-    ["间", "jiān", "room classifier (洗手间 = toilet)"]
-    
-    
-    
-                     
+    ["间", "jiān", "room classifier (洗手间 = toilet)"],
+    ["馆", "guǎn", "hall (饭馆 = restaurant)"]
     
   ]
 }
