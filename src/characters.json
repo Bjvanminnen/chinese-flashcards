@@ -164,7 +164,13 @@
     ["咖", "kā", "咖啡 = coffee"],
     ["啡", "fēi", "咖啡 = coffee"],
     ["牛", "niú", "cow (牛奶 = cow's milk)"],
-    ["奶", "nǎi", "milk (牛奶 = cow's milk)"]
+    ["奶", "nǎi", "milk (牛奶 = cow's milk)"],
+    
+    ["洗", "xǐ", "to wash (洗手间 = toilet)"],
+    ["手", "shǒu", "hand (洗手间 = toilet)"],
+    ["院", "yuàn", "hospital"],
+    ["间", "jiān", "room classifier (洗手间 = toilet)"]
+    
     
     
                      
