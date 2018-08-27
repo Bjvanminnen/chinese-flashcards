@@ -56,7 +56,7 @@
   }
 </script>
 
-<style>
+<style scoped>
 .row {
   display: flex;
   flex-direction: row;

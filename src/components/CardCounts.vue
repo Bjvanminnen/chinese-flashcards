@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="count-container">
+      <div class="button" @click="reset">🔄</div>
       <div class="count">{{numRemaining}}</div>
       <div class="count correct">{{numCorrect}}</div>
       <div class="count incorrect">{{numIncorrect}}</div>
@@ -10,6 +11,7 @@
 
 <script>
   import { mapGetters } from 'vuex';
+  import { resetLocalStorage } from '../store/localStatePlugin';
 
   export default {
     name: 'CardCounts',
@@ -19,11 +21,17 @@
         'numCorrect',
         'numIncorrect',
       ])
+    },
+    methods: {
+      reset() {
+        resetLocalStorage();
+        window.location.reload();
+      }
     }
   }
 </script>
 
-<style>
+<style scoped>
 .count-container {
   display: flex;
   flex-direction: row;
@@ -33,6 +41,13 @@
   margin-top: 4px;
   margin-bottom: 4px;
   width: 40%;
+}
+
+.button {
+  font-size: 26px;
+  line-height: 26px;
+  cursor: pointer;
+  user-select: none;
 }
 
 .count {

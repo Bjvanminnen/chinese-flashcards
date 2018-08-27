@@ -12,6 +12,10 @@ export function getLocalState() {
   }
 }
 
+export function resetLocalStorage() {
+  localStorage.removeItem(key);
+}
+
 export default function saveLocalState(store) {
   store.subscribe((mutation, state) => {
     const str = JSON.stringify(_.cloneDeep(state));
