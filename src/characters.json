@@ -146,6 +146,7 @@
     ["错", "cuò", "fine (不错 = not bad)"],
     ["近", "jìn", "near (最近 = recently)"],
     ["久", "jiǔ", "long time"],
+    ["最近", "zuìjìn", "recently"],
     
     ["知", "zhī", "(知道 = know)"],
     ["问", "wèn", "ask"],
@@ -157,6 +158,9 @@
     ["帮", "bāng", "帮助 = help"],
     ["助", "zhù", "帮助 = help"],
     ["次", "cì", "time (一次 = once)"],
+    ["请问", "qǐngwèn", "excuse me"],
+    ["帮助", "bāngzhù", "help"],
+    ["知道", "zhīdào", "know"],
     
     ["要", "yào", "wants"],
     ["冰", "bīng", "ice"],
@@ -165,12 +169,16 @@
     ["啡", "fēi", "咖啡 = coffee"],
     ["牛", "niú", "cow (牛奶 = cow's milk)"],
     ["奶", "nǎi", "milk (牛奶 = cow's milk)"],
+    ["咖啡", "kāfēi", "coffee"],
+    ["牛奶", "niúnǎi", "cow's milk"],
     
     ["洗", "xǐ", "to wash (洗手间 = toilet)"],
     ["手", "shǒu", "hand (洗手间 = toilet)"],
-    ["院", "yuàn", "hospital"],
+    ["院", "yuàn", "hospital (医院)"],
     ["间", "jiān", "room classifier (洗手间 = toilet)"],
-    ["馆", "guǎn", "hall (饭馆 = restaurant)"]
+    ["馆", "guǎn", "hall (饭馆 = restaurant)"],
+    ["洗手间", "xǐshǒujiān", "toilet/bathroom"],
+    ["饭馆", "guǎnguǎn", "restaurant"]
     
   ]
 }
