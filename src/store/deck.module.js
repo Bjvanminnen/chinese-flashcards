@@ -1,5 +1,4 @@
-import { getShuffledCharacters } from '../library';
-
+import _ from 'lodash';
 // TODO: think about how to differentiate actions/mutations
 export const GET_CHARACTERS = 'deck/GET_CHARACTERS';
 
@@ -28,8 +27,21 @@ const getters = {
   numIncorrect: state => state.incorrectStack.length,
 };
 
+// TODO: should really have deterministic shuffling/randomness
+function shuffle(characters) {
+  return _.shuffle(characters).map(c => ({
+    chinese: c[0],
+    pinyin: c[1],
+    english: c[2],
+  }));
+}
+
 const actions = {
-  [GET_CHARACTERS] ({ commit }, params) {
+  [GET_CHARACTERS] ({ commit, state }, params) {
+    if (state.unshuffled.length) {
+      // We already got chars from local storage
+      return;
+    }
     // TODO: could emulate "Service" approach
     fetch('https://raw.githubusercontent.com/Bjvanminnen/chinese-flashcards/master/src/characters.json')
     .then(result => result.json())
@@ -52,13 +64,13 @@ const mutations = {
     }
     // state.correct = [];
     // state.incorrect = [];
-    state.unseen = getShuffledCharacters(state.unshuffled);
+    state.unseen = shuffle(state.unshuffled);
   },
 
   [NEXT_CARD] (state, correct) {
     if (state.currentIndex + 1 === state.viewedStack.length) {
       if (state.unseen.length === 0 && state.incorrectStack.length === 0) {
-        state.unseen = getShuffledCharacters(state.unshuffled);
+        state.unseen = shuffle(state.unshuffled);
         // TODO: In the case where we got a new batch of cards, make sure we have
         // a different character
       }
