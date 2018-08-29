@@ -64,8 +64,8 @@
     ["多", "duō", "often (多少 = how much)"],
     ["少", "shǎo", "few/less (多少 = how much)"],
 
-    ["码", "mǎ", "number/to pile up (hàomǎ = number)"],
-    ["号", "hào", "date/day of a month (号码 = number)"],
+    ["码", "mǎ", "number/to pile up (号码 = number)"],
+    ["号", "hào", "day of a month (号码 = number)"],
     ["号码", "hàomǎ", "numbers"],
     ["多少", "duōshǎo", "what's/how much/many"],
     ["中", "zhōng", "middle"],
@@ -178,7 +178,26 @@
     ["间", "jiān", "room classifier (洗手间 = toilet)"],
     ["馆", "guǎn", "hall (饭馆 = restaurant)"],
     ["洗手间", "xǐshǒujiān", "toilet/bathroom"],
-    ["饭馆", "fànguǎn", "restaurant"]
+    ["饭馆", "fànguǎn", "restaurant"],
+    
+    ["月", "yuè", "month"],
+    ["几", "jǐ", "what/how many"],
+    ["年", "nián", "year"],
+    ["几号", "jǐhào", "date"],
+    ["〇", "líng", "zero"],
+    ["期", "qī", "period (星期 = week)"],
+    ["星", "xīng", "star (星期 = week)"],
+    ["明", "míng", "next (明天 = tomorrow)"],
+    ["星期", "xīngqī", "week"],
+    ["明天", "míngtiān", "tomorrow"],
+    ["日", "rì", "day/sun"],
+    ["星期天", "xīngqītiān", "Sunday"],
+    ["星期日", "xīngqīrì", "Sunday"],
+    ["点", "diǎn", "time/o'clock"],
+    ["现", "xiàn", "now"],
+    ["半", "bàn", "half"]
+    
+
     
   ]
 }
