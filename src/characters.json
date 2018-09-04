@@ -20,7 +20,6 @@
     ["叫", "jiào", "called"],
     ["吗", "ma", "question marker"],
     ["人", "rén", "person"],
-    ["女", "nǚ", "female"],
     ["男", "nán", "male"],
     ["孩", "hái", "child"],
     ["高兴", "gāoxìng", "happy (high happy)"],
@@ -101,7 +100,6 @@
     ["港", "gǎng", "port (香港 = Hong Kong)"],
     ["纽", "niǔ", "tie (纽约 = New York)"],
     ["约", "yuē", "to arrange (纽约 = New York)"],
-    ["儿", "er", "son (哪儿 = where)"],
     ["哪儿", "nă'r", "where"],
     ["香", "xiāng", "fragrant (香港 = Hong Kong)"],
     ["纽约", "niǔyuē", "New York"],
@@ -195,7 +193,21 @@
     ["星期日", "xīngqīrì", "Sunday"],
     ["点", "diǎn", "time/o'clock"],
     ["现", "xiàn", "now"],
-    ["半", "bàn", "half"]
+    ["半", "bàn", "half"],
+    
+    ["子", "zǐ", ""],
+    ["两", "liǎng", "two/both"],
+    ["孩", "hái", "孩子 = children"],
+    ["儿子", "ér", "son"],
+    ["岁", "suì", "years old"],
+    ["女", "nǚ", "female"],
+    ["女儿", "nǚ", "daughter"],
+    ["妻", "qī", "妻子 = wife"],
+    ["丈", "zhàng", "丈夫 = husband"],
+    ["夫", "fū", "丈夫 = husband"],
+    ["猫", "māo", "cat"],
+    ["狗", "gǒu", "dog"],
+    ["它", "tā", "it"]
     
 
     
