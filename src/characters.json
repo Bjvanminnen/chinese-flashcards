@@ -137,7 +137,7 @@
     ["和", "hé", "and"],
     ["妹", "mèi", "younger sister 妹妹"],
     
-    ["会", "huì", "一会儿 = in a bit"],
+    ["会", "huì", "meeting/can (一会儿 = in a bit)"],
     ["安", "ān", "peace/safety (早安 = good morning)"],
     ["晚", "wǎn", "evening (晚安 = good night)"],
     ["最", "zuì", "most/superlative (最近 = recently)"],
@@ -145,6 +145,7 @@
     ["近", "jìn", "near (最近 = recently)"],
     ["久", "jiǔ", "long time"],
     ["最近", "zuìjìn", "recently"],
+    ["一会儿", "yí huìr", "in a bit"],
     
     ["知", "zhī", "(知道 = know)"],
     ["问", "wèn", "ask"],
