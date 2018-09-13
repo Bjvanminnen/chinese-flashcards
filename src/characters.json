@@ -215,7 +215,22 @@
     ["白", "bái", "white (明白 = understand)"],
     ["快", "kuài", "quickly/fast"],
     ["明白", "míngbái", "to understand"],
-    ["得", "dé", "need/get"]
+    ["得", "dé", "need/get"],
+    
+    ["高", "gāo", "tall/high"],
+    ["亮", "liàng", "bright (漂亮 = beautiful)"],
+    ["漂", "piào", "elegant (漂亮 = beautiful)"],
+    ["漂亮", "piàoliàng", "beautiful"],
+    ["朋", "péng", "(朋友 = friend)"],
+    ["友", "yǒu", "(朋友 = friend)"],
+    ["朋友", "péngyǒu", "friend"],
+    ["矮", "ăi", "short"],
+    ["非", "fēi", "(非常 = extremely)"],
+    ["常", "cháng", "(非常 = extremely)"],
+    ["非常", "fēicháng", "extremely"],
+    ["可", "kě", "can/but (可爱 = cute)"],
+    ["可爱", "kěài", "cute"]
+    
     
 
     
