@@ -83,7 +83,7 @@
     ["加拿大", "jiānádà", "Canada"],
     ["忙", "máng", "busy"],
     ["早", "zǎo", "early/morning (早上 = morning)"],
-    ["上", "shàng", "up (早上 = morning)"],
+    ["上", "shàng", "above/previous (早上 = morning)"],
     ["早上", "zǎoshàng", "morning"],
     ["怎", "zěn", "how (怎么样 = how are things)"],
     ["今", "jīn", "this (今天 = today)"],
@@ -229,7 +229,22 @@
     ["常", "cháng", "(非常 = extremely)"],
     ["非常", "fēicháng", "extremely"],
     ["可", "kě", "can/but (可爱 = cute)"],
-    ["可爱", "kěài", "cute"]
+    ["可爱", "kěài", "cute"],
+    
+    ["下", "xià", "down (下午 = afternoon)"],
+    ["午" "wǔ", "noon (下午 = afternoon)"],
+    ["分", "fēn", "minutes"],
+    ["晚", "wǎn", "evening"],
+    ["下午", "xiàwǔ", "afternoon"],
+    ["上午", "shàngwǔ", "morning"],
+    ["末", "mò", "end"],
+    ["周", "zhōu", "week"],
+    ["每", "měi", "every/per"],
+    ["周末", "zhōumò", "weekend"],
+    ["昨", "zuó", "last (昨天 = yesterday)"],
+    ["了", "le", "participle"],
+    ["做", "zuò", "do/did"]
+    
     
     
 
