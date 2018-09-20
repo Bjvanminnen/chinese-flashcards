@@ -231,7 +231,7 @@
     ["可", "kě", "can/but (可爱 = cute)"],
     ["可爱", "kěài", "cute"],
     
-    ["下", "xià", "down (下午 = afternoon)"],
+    ["下", "xià", "next/down (下午 = afternoon)"],
     ["午", "wǔ", "noon (下午 = afternoon)"],
     ["分", "fēn", "minutes"],
     ["晚", "wǎn", "evening"],
@@ -243,11 +243,9 @@
     ["周末", "zhōumò", "weekend"],
     ["昨", "zuó", "last (昨天 = yesterday)"],
     ["了", "le", "participle"],
-    ["做", "zuò", "do/did"]
-    
-    
-    
-
-    
+    ["做", "zuò", "do/did"],
+    ["会", "hùi", "will/can"],
+    ["去", "qù", "last (去年 = last year)"]
+       
   ]
 }
