@@ -254,7 +254,12 @@
     ["旁边", "pángbiān", "next to"],
     ["前", "qián", "front (前面 = in front of/ahead)"],
     ["校", "xiào", "学校 = school"],
-    ["后", "hòu", "back (后面 = behind)"]
+    ["后", "hòu", "back (后面 = behind)"],
+    ["路", "lù", "road/the way"],
+    ["到", "dào", "get/reach"],
+    ["走", "zǒu", "go/walking"],
+    ["里", "lǐ", "there"],
+    ["往", "wǎng", "towards"]
        
   ]
 }
