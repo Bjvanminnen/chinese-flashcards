@@ -245,7 +245,16 @@
     ["了", "le", "participle"],
     ["做", "zuò", "do/did"],
     ["会", "hùi", "will/can"],
-    ["去", "qù", "last (去年 = last year)"]
+    ["去", "qù", "last (去年 = last year)"],
+    
+    ["右", "yòu", "right (右边 = to the right)"],
+    ["旁", "páng", "side (旁边 = next to)"],
+    ["左", "zuǒ", "left (左边 = to the left)"],
+    ["边", "biān", "side (旁边 = next to)"],
+    ["旁边", "pángbiān", "next to"],
+    ["前", "qián", "front (前面 = in front of/ahead)"],
+    ["校", "xiào", "学校 = school"],
+    ["后", "hòu", "back (后面 = behind)"]
        
   ]
 }
