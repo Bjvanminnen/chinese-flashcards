@@ -272,7 +272,17 @@
     ["最", "zuì", "most"],
     ["脑", "nǎo", "brain (电脑 = computer)"],
     ["电脑", "diànnǎo", "computer"],
-    ["游戏", "yóuxì", "games"]
+    ["游戏", "yóuxì", "games"],
+    ["歌", "gē", "songs"],
+    ["听", "tīng", "listen"],
+    ["音", "yīn", "(音乐 = music)"],
+    ["音乐", "yīnyuè", "music"],
+    ["舞", "wǔ", "dance (跳舞 = dance)"],
+    ["跳", "tiào", "jump (跳舞 = dance)"],
+    ["唱", "chàng", "sing"],
+    ["跳舞", "tiàowǔ", "dance"]
+    
+    
        
   ]
 }
