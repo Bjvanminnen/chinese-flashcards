@@ -83,7 +83,7 @@
     ["加拿大", "jiānádà", "Canada"],
     ["忙", "máng", "busy"],
     ["早", "zǎo", "early/morning (早上 = morning)"],
-    ["上", "shàng", "above/previous (早上 = morning)"],
+    ["上", "shàng", "previous. go to (早上 = morning)"],
     ["早上", "zǎoshàng", "morning"],
     ["怎", "zěn", "how (怎么样 = how are things)"],
     ["今", "jīn", "this (今天 = today)"],
@@ -280,7 +280,13 @@
     ["舞", "wǔ", "dance (跳舞 = dance)"],
     ["跳", "tiào", "jump (跳舞 = dance)"],
     ["唱", "chàng", "sing"],
-    ["跳舞", "tiàowǔ", "dance"]
+    ["跳舞", "tiàowǔ", "dance"],
+    
+    ["起", "qǐ", "raise"],
+    ["床", "chuáng", "bed"],
+    ["班", "bān", "work"],
+    ["早饭", "zǎofàn", "breakfast"],
+    ["起床", "qǐchuáng", "get up"]
     
     
        
