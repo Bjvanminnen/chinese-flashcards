@@ -286,7 +286,11 @@
     ["床", "chuáng", "bed"],
     ["班", "bān", "work"],
     ["早饭", "zǎofàn", "breakfast"],
-    ["起床", "qǐchuáng", "get up"]
+    ["起床", "qǐchuáng", "get up"],
+    ["睡觉", "shuìjiào", "slept"],
+    ["睡", "shuì", "sleep"],
+    ["从", "cóng", "from"]
+    
     
     
        
