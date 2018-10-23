@@ -293,10 +293,12 @@
     ["回", "huí", "return"],
     ["放", "fàng", "finish"],
     
-    ["块", "kuài", "currency counter"],
+    ["块", "kuài", "yuan/currency counter"],
     ["钱", "qián", "money"],
     ["只", "zhǐ", "only"],
-    ["买", "mǎi", "buy"]
+    ["买", "mǎi", "buy"],
+    ["共", "gòng", "一共 = altogether/in total"],
+    ["毛", "máo", "ten cents"]
     
     
     
