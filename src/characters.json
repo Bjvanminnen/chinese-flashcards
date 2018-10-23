@@ -290,9 +290,13 @@
     ["睡觉", "shuìjiào", "slept"],
     ["睡", "shuì", "sleep"],
     ["从", "cóng", "from"],
-    
     ["回", "huí", "return"],
-    ["放", "fàng", "finish"]
+    ["放", "fàng", "finish"],
+    
+    ["块", "kuài", "currency counter"],
+    ["钱", "qián", "money"],
+    ["只", "zhǐ", "only"],
+    ["买", "mǎi", "buy"]
     
     
     
