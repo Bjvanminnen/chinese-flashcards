@@ -92,7 +92,7 @@
     ["样", "yàng", "shape (怎么样 = how are things)"],
     ["怎么样", "zěnmeyàng", "how are things"],
     
-    ["家", "jiā", "home"],
+    ["家", "jiā", "home. measure word for establishments"],
     ["在", "zài", "in/at/present"],
     ["北", "běi", "north (北京 = Beijing)"],
     ["京", "jīng", "capital (北京 = Beijing)"],
@@ -298,7 +298,18 @@
     ["只", "zhǐ", "only"],
     ["买", "mǎi", "buy"],
     ["共", "gòng", "一共 = altogether/in total"],
-    ["毛", "máo", "ten cents"]
+    ["毛", "máo", "ten cents"],
+    ["用", "yòng", "use (信用卡 = credit card)"],
+    ["收", "shōu", "take"],
+    ["信", "xìn", "believe (信用卡 = credit card)"],
+    ["千", "qiān", "thousand"],
+    ["卡", "kǎ", "card (信用卡 = credit card)"],
+    ["信用卡", "xìnyòngkǎ", "credit card"],
+    ["金", "jīn", "gold (现金 = cash)"],
+    ["贵", "guì", "expensive"],
+    ["便宜", "piányi", "cheap"],
+    ["现金", "xiànjīn", "cash"]
+
     
     
     
