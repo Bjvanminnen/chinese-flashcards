@@ -319,16 +319,18 @@
     ["想", "xiǎng", "would/would like"],
     ["纸", "zhǐ", "报纸 = newspaper"],
     ["报", "bào", "报纸 = newspaper"],
+    ["报纸", "bàozhǐ", "newspaper"],
     ["网", "wǎng", "上网 = online"],
     ["闻", "wén", "to hear"],
     ["新闻", "xīnwén", "the news"],
     ["新", "xīn", "new"],
     ["机", "jī", "手机 = cell phone"],
+    ["手机", "shǒujī", "cell phone"],
     ["节", "jié", "节目 = shows"],
+    ["目", "mù", "节目 = shows"],
     ["体", "tǐ", "body"],
     ["育", "yù", "to educate/train"],
-    ["体育", "tǐyù", "sports"],
-    ["目", "mù", "节目 = shows"],
+    ["体育", "tǐyù", "sports"],    
     ["韩", "hán", "korean"]
     ["明星", "míngxīng", "celebrity"]
 
