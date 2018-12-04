@@ -83,7 +83,7 @@
     ["加拿大", "jiānádà", "Canada"],
     ["忙", "máng", "busy"],
     ["早", "zǎo", "early/morning (早上 = morning)"],
-    ["上", "shàng", "previous. go to (早上 = morning)"],
+    ["上", "shàng", "previous. go to. on (早上 = morning)"],
     ["早上", "zǎoshàng", "morning"],
     ["怎", "zěn", "how (怎么样 = how are things)"],
     ["今", "jīn", "this (今天 = today)"],
@@ -338,7 +338,11 @@
     ["先生", "xiānshēng", "sir"],
     ["小姐", "xiǎojiě", "miss"],
     ["女士", "nǚshì", "ms/maam"],
-    ["同志", "tóngzhì", "comrade"]
+    ["同志", "tóngzhì", "comrade"],
+    
+    ["桌", "zhuō", "table"],
+    ["桌子", "zhuōzi", "table"],
+    ["找", "zhǎo", "looking for"]
 
 
     
