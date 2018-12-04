@@ -344,7 +344,13 @@
     ["桌子", "zhuōzi", "table"],
     ["找", "zhǎo", "looking for"],
     ["椅", "yǐ", "chair"],
-    ["椅子", "yǐzi", "chair"]
+    ["椅子", "yǐzi", "chair"],
+    ["箱", "xiāng", "box"],
+    ["冰箱", "bīngxiāng", "fridge"],
+    ["间", "jiān", "rooms classifier"],
+    ["房", "fáng", "house"],
+    ["房间", "fángjiān", "room"],
+    ["外", "wài", "outside"]
 
 
     
