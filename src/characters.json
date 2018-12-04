@@ -231,7 +231,7 @@
     ["可", "kě", "can/but (可爱 = cute)"],
     ["可爱", "kěài", "cute"],
     
-    ["下", "xià", "next/down (下午 = afternoon)"],
+    ["下", "xià", "next/down/under (下午 = afternoon)"],
     ["午", "wǔ", "noon (下午 = afternoon)"],
     ["分", "fēn", "minutes"],
     ["晚", "wǎn", "evening"],
@@ -342,7 +342,9 @@
     
     ["桌", "zhuō", "table"],
     ["桌子", "zhuōzi", "table"],
-    ["找", "zhǎo", "looking for"]
+    ["找", "zhǎo", "looking for"],
+    ["椅", "yǐ", "chair"],
+    ["椅子", "yǐzi", "chair"]
 
 
     
