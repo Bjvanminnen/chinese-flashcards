@@ -350,7 +350,24 @@
     ["间", "jiān", "rooms classifier"],
     ["房", "fáng", "house"],
     ["房间", "fángjiān", "room"],
-    ["外", "wài", "outside"]
+    ["外", "wài", "outside"],
+    
+    ["位", "wèi", "place/people classifier"],
+    ["等", "děng", "to wait"],
+    ["进", "jìn", "to enter"],
+    ["一下", "yīxià", "a bit"],
+    ["坐", "zuò", "sit"],
+    ["单", "dān", "single/bill/list"],
+    ["文", "wén", "writing/culture"],
+    ["菜", "cài", "course/dish/vegetable"],
+    ["菜单", "càidān", "menu"],
+    ["买单", "măidān", "the check"],
+    ["点菜", "diancài", "to order"
+    ["订", "dìng", "to book"],
+    ["服", "fú", "dress/to server"],
+    ["务", "wù", "business"],
+    ["员", "yuán", "member"],
+    ["服务员", "fúwùyuán", "server"]
 
 
     
