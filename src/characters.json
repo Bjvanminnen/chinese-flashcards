@@ -362,17 +362,11 @@
     ["菜", "cài", "course/dish/vegetable"],
     ["菜单", "càidān", "menu"],
     ["买单", "măidān", "the check"],
-    ["点菜", "diancài", "to order"
+    ["点菜", "diancài", "to order"],
     ["订", "dìng", "to book"],
     ["服", "fú", "dress/to server"],
     ["务", "wù", "business"],
     ["员", "yuán", "member"],
     ["服务员", "fúwùyuán", "server"]
-
-
-    
-    
-    
-       
   ]
 }
