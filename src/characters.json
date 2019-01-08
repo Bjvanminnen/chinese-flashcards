@@ -374,6 +374,9 @@
     ["买东西", "mǎidōngxi", "shopping"],
     ["东", "dōng", "east"],
     ["西", "xī", "west"],
-    ["些", "xiē", "some"]
+    ["些", "xiē", "some"],
+    ["果", "guǒ", "水果 = fruit"],
+    ["超", "chāo", "super"],
+    ["超市", "chāoshì", "supermarket"]
   ]
 }
