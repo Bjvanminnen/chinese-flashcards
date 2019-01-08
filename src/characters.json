@@ -192,7 +192,7 @@
     ["日", "rì", "day/sun"],
     ["星期天", "xīngqītiān", "Sunday"],
     ["星期日", "xīngqīrì", "Sunday"],
-    ["点", "diǎn", "time/o'clock"],
+    ["点", "diǎn", "time/o'clock. order"],
     ["现", "xiàn", "now"],
     ["半", "bàn", "half"],
     
@@ -368,6 +368,12 @@
     ["务", "wù", "business"],
     ["员", "yuán", "member"],
     ["服务员", "fúwùyuán", "server"],
-    ["您", "nín", "you (formal)"]
+    ["您", "nín", "you (formal)"],
+    
+    ["东西", "dōngxi", "stuff/things"],
+    ["买东西", "mǎidōngxi", "shopping"],
+    ["东", "dōng", "east"],
+    ["西", "xī", "west"],
+    ["些", "xiē", "some"]
   ]
 }
