@@ -377,6 +377,20 @@
     ["些", "xiē", "some"],
     ["果", "guǒ", "水果 = fruit"],
     ["超", "chāo", "super"],
-    ["超市", "chāoshì", "supermarket"]
+    ["超市", "chāoshì", "supermarket"],
+    ["苹果", "píngguǒ", "apple"],
+    ["给", "gěi", "give"],
+    ["瓜", "guā", "melon"],
+    ["西瓜", "xīguā", "watermelon"],
+    ["鸡", "jī", "chicken"]
+    ["蛋", "dàn", "egg"],
+    ["新鲜", "xīnxiān", ""],
+    ["蔬菜", "shūcài", "vegetable"],
+    ["米", "mǐ", "rice"],
+    ["糖", "táng", "sugar"],
+    ["面包", "miànbāo", "bread"],
+    ["包", "bāo", "wrap/bag"],
+    ["袋", "dài", "bag"]
+
   ]
 }
