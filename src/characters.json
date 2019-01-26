@@ -245,7 +245,7 @@
     ["了", "le", "participle"],
     ["做", "zuò", "do/did"],
     ["会", "hùi", "will/can"],
-    ["去", "qù", "last (去年 = last year)"],
+    ["去", "qù", "to go/last (去年 = last year)"],
     
     ["右", "yòu", "right (右边 = to the right)"],
     ["旁", "páng", "side (旁边 = next to)"],
@@ -390,7 +390,30 @@
     ["糖", "táng", "sugar"],
     ["面包", "miànbāo", "bread"],
     ["包", "bāo", "wrap/bag"],
-    ["袋", "dài", "bag"]
+    ["袋", "dài", "bag"],
+    
+    ["为", "wèi", "for"],
+    ["习", "xí", "practice/study"],
+    ["西班牙", "xībānyá", "Spain"],
+    ["因", "yīn", "because"],
+    ["所", "suǒ", "place"],
+    ["以", "yĭ", "to use/because of"],
+    ["所以", "suǒyĭ", "therefore/so"],
+    ["牙", "yá", "tooth"],
+    ["轻", "qīng", "light"],
+    ["轻松", "qīngsōng", "relaxed"],
+    ["爱好", "àihào", "hobby"],
+    ["松", "sōng", "pine/loose/relaxed"],
+    ["旅", "lǔ", "to travel"],
+    ["旅游", "lǔyóu", "tourism"],
+    ["拍", "pāi", "to photograph"],
+    ["照", "zhào", "to shine on"],
+    ["拍照", "pāizhào", "photography"],
+    ["照相", "zhàoxiàng", "take a picture"],
+    ["照相机", "zhàoxiàngjī", "camera"],
+    ["机", "jī", "machine"],
+    ["印度", "yìndù", "India"]
+    
 
   ]
 }
