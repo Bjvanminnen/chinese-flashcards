@@ -412,7 +412,14 @@
     ["照相", "zhàoxiàng", "take a picture"],
     ["照相机", "zhàoxiàngjī", "camera"],
     ["机", "jī", "machine"],
-    ["印度", "yìndù", "India"]
+    ["印度", "yìndù", "India"],
+    
+    ["日本", "rìběn", "Japan"],
+    ["海", "hǎi", "sea"],
+    ["上海", "shànghǎi", "Shanghai"],
+    ["还", "hái", "still"],
+    ["还是", "háishì", "or"]
+
     
 
   ]
