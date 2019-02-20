@@ -435,7 +435,14 @@
     ["身体", "shēntĭ", "body/health"],
     ["注意", "zhùyì", "pay attention"],
     ["锻炼", "duànliàn", "workout"],
-    ["开始", "kāishǐ", "to begin"]
+    ["开始", "kāishǐ", "to begin"],
+    
+    ["店", "diàn", "store"],
+    ["酒", "jiǔ", "alcoholic drink"],
+    ["酒店", "jiǔdiàn", "hotel"],
+    ["铁", "tiě", "iron"],
+    ["地铁", "dìtiě", "subway"],
+    ["准", "zhǔn", "permitted"]
 
     
   ]
