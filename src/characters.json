@@ -442,7 +442,12 @@
     ["酒店", "jiǔdiàn", "hotel"],
     ["铁", "tiě", "iron"],
     ["地铁", "dìtiě", "subway"],
-    ["准", "zhǔn", "permitted"]
+    ["准", "zhǔn", "permitted"],
+    ["出", "chū", "out/exit"],
+    ["租", "zū", "rent"],
+    ["站", "zhàn", "station/stop"],
+    ["车", "chē", "vehicle/transport"],
+    ["出租车", "chūzūchē", "taxi"]
 
     
   ]
