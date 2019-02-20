@@ -297,7 +297,7 @@
     ["钱", "qián", "money"],
     ["只", "zhǐ", "only"],
     ["买", "mǎi", "buy"],
-    ["共", "gòng", "一共 = altogether/in total"],
+    ["一共", "yígòng", "一共 = altogether/in total"],
     ["毛", "máo", "ten cents"],
     ["用", "yòng", "use (信用卡 = credit card)"],
     ["收", "shōu", "take"],
@@ -447,7 +447,14 @@
     ["租", "zū", "rent"],
     ["站", "zhàn", "station/stop"],
     ["车", "chē", "vehicle/transport"],
-    ["出租车", "chūzūchē", "taxi"]
+    ["出租车", "chūzūchē", "taxi"],
+    ["公", "gōng", "public"],
+    ["共", "gòng", "share"],
+    ["公共汽车", "gōnggòngqìchē", "public bus"],
+    ["汽", "qì", "steam"],
+    ["汽车", "qìchē", "car"],
+    ["船", "chuán", "boat"],
+    ["可以", "kĕyĭ", "can"]
 
     
   ]
