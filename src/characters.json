@@ -459,7 +459,11 @@
     ["商", "shāng", "business"],
     ["商店", "shāngdiàn", "shop"],
     ["衣服", "yīfu", "clothes"],
-    ["件", "jiàn", "classifier for piece of clothing"]
+    ["件", "jiàn", "classifier for piece of clothing"],
+    ["欢迎", "huānyíng", "welcome"],
+    ["门", "mén", "door"],
+    ["开门", "kāimén", "open"],
+    ["关门", "guānmén", "close"]
 
     
   ]
