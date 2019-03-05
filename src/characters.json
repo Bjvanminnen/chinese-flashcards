@@ -454,7 +454,12 @@
     ["汽", "qì", "steam"],
     ["汽车", "qìchē", "car"],
     ["船", "chuán", "boat"],
-    ["可以", "kĕyĭ", "can"]
+    ["可以", "kĕyĭ", "can"],
+    
+    ["商", "shāng", "business"],
+    ["商店", "shāngdiàn", "shop"],
+    ["衣服", "yīfu", "clothes"],
+    ["件", "jiàn", "classifier for piece of clothing"]
 
     
   ]
