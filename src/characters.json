@@ -463,7 +463,10 @@
     ["欢迎", "huānyíng", "welcome"],
     ["门", "mén", "door"],
     ["开门", "kāimén", "open"],
-    ["关门", "guānmén", "close"]
+    ["关门", "guānmén", "close"],
+    ["随便", "suíbiàn", "as you like"],
+    ["需", "xū", "need (also 需要)"],
+    ["帮忙", "bāngmáng", "help/assistance"]
 
     
   ]
