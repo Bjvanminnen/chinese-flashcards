@@ -141,7 +141,7 @@
     ["安", "ān", "peace/safety (早安 = good morning)"],
     ["晚", "wǎn", "evening (晚安 = good night)"],
     ["最", "zuì", "most/superlative (最近 = recently)"],
-    ["错", "cuò", "fine (不错 = not bad)"],
+    ["错", "cuò", "bad/fault/wrong (不错 = not bad)"],
     ["近", "jìn", "near (最近 = recently)"],
     ["久", "jiǔ", "long time"],
     ["最近", "zuìjìn", "recently"],
@@ -469,7 +469,12 @@
     ["帮忙", "bāngmáng", "help/assistance"],
     
     ["字", "zì", "word/character"],
-    ["读", "dú", "read"]
+    ["读", "dú", "read"],
+    ["写", "xiě", "writes/writing"],
+    ["难", "nán", "difficult"],
+    ["思", "sī", "think"],
+    ["意思", "yìsī", "meaning"]
+
 
     
   ]
