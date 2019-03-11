@@ -466,7 +466,10 @@
     ["关门", "guānmén", "close"],
     ["随便", "suíbiàn", "as you like"],
     ["需", "xū", "need (also 需要)"],
-    ["帮忙", "bāngmáng", "help/assistance"]
+    ["帮忙", "bāngmáng", "help/assistance"],
+    
+    ["字", "zì", "word/character"],
+    ["读", "dú", "read"]
 
     
   ]
