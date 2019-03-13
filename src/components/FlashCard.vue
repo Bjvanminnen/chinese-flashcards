@@ -8,7 +8,7 @@
       </div>
       <div>
         <audio ref="audio" v-bind:src="audioUrl" v-on:error="audioCantPlay" type="audio/mp3"/>
-        <button class="play" @click="play" v-if="canPlay">▶️</button>
+        <div class="button" @click="play" v-if="canPlay">▶️</div>
       </div>
       <div class="eye" v-if="hidden" @click="hidden = false">
         👁️
@@ -105,9 +105,6 @@ export default {
 .chinese-character {
   font-size: 72px;
 }
-.play {
-  font-size: 24px;
-}
 .eye {
   height: calc(100% - 40px);
   width: calc(100% - 40px);
@@ -118,6 +115,17 @@ export default {
   border: 1px dashed black;
   cursor: pointer;
   margin: 20px;
+}
+
+/* same as CardManager.vue, which seems like an anti-pattern*/
+.button {
+  font-size: 40px;
+  cursor: pointer;
+  user-select: none;
+  display: inline-block;
+}
+.button:hover {
+  text-shadow: 3px 3px lightgray;
 }
 
 .answer {
