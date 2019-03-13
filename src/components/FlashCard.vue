@@ -25,10 +25,10 @@
 import { mapGetters } from 'vuex';
 
 function numericize(pinyin) {
-  // Note: still missing some (ie. differences in third tone accents)
   return pinyin
     .replace(/ā/g, 'a1')
     .replace(/á/g, 'a2')
+    .replace(/ă/g, 'a3')
     .replace(/ǎ/g, 'a3')
     .replace(/à/g, 'a4')
 
@@ -41,11 +41,13 @@ function numericize(pinyin) {
     .replace(/ī/g, 'i1')
     .replace(/í/g, 'i2')
     .replace(/ǐ/g, 'i3')
+    .replace(/ĭ/g, 'i3')
     .replace(/ì/g, 'i4')
 
     .replace(/ō/g, 'o1')
     .replace(/ó/g, 'o2')
     .replace(/ǒ/g, 'o3')
+    .replace(/ŏ/g, 'o3')
     .replace(/ò/g, 'o4')
 
     .replace(/ū/g, 'u1')
