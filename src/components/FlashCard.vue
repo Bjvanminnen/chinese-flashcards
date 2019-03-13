@@ -2,7 +2,13 @@
   <div>
     <div id="card">
       <div class="chinese-character">
-        <div>{{currentChar.chinese}}</div>
+        <div>
+          {{currentChar.chinese}}
+        </div>
+      </div>
+      <div>
+        <audio ref="audio" v-bind:src="audioUrl" v-on:error="audioCantPlay" type="audio/mp3"/>
+        <button class="play" @click="play" v-if="canPlay">▶️</button>
       </div>
       <div class="eye" v-if="hidden" @click="hidden = false">
         👁️
@@ -18,21 +24,68 @@
 <script>
 import { mapGetters } from 'vuex';
 
+function numericize(pinyin) {
+  // Note: still missing some (ie. differences in third tone accents)
+  return pinyin
+    .replace(/ā/g, 'a1')
+    .replace(/á/g, 'a2')
+    .replace(/ǎ/g, 'a3')
+    .replace(/à/g, 'a4')
+
+    .replace(/ē/g, 'e1')
+    .replace(/é/g, 'e2')
+    .replace(/ĕ/g, 'e3')
+    .replace(/ě/g, 'e3')
+    .replace(/è/g, 'e4')
+
+    .replace(/ī/g, 'i1')
+    .replace(/í/g, 'i2')
+    .replace(/ǐ/g, 'i3')
+    .replace(/ì/g, 'i4')
+
+    .replace(/ō/g, 'o1')
+    .replace(/ó/g, 'o2')
+    .replace(/ǒ/g, 'o3')
+    .replace(/ò/g, 'o4')
+
+    .replace(/ū/g, 'u1')
+    .replace(/ú/g, 'u2')
+    .replace(/ǔ/g, 'u3')
+    .replace(/ǔ/g, 'u3')
+    .replace(/ù/g, 'u4')
+
+    .replace(/ǚ/g, 'v3')
+}
+
 export default {
   name: 'FlashCard',
   data: () => {
     return {
-      hidden: true
+      hidden: true,
+      canPlay: true,
     };
   },
   computed: {
     ...mapGetters([
       'currentChar',
       'onCurrentChar',
-    ])
+    ]),
+    audioUrl: state => {
+      const numericalPinyin = numericize(state.currentChar.pinyin);
+      return `https://www.hantrainerpro.de/resources/pronunciations/${numericalPinyin}.mp3`;
+    }
+  },
+  methods: {
+    play() {
+      this.$refs.audio.play();
+    },
+    audioCantPlay() {
+      this.canPlay = false;
+    }
   },
   watch: {
     currentChar() {
+      this.canPlay = true;
       this.hidden = true;
     }
   }
@@ -44,13 +97,16 @@ export default {
 #card {
   border: 1px solid black;
   width: 300px;
-  height: 300px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 .chinese-character {
   font-size: 72px;
+}
+.play {
+  font-size: 24px;
 }
 .eye {
   height: calc(100% - 40px);
