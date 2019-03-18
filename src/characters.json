@@ -477,7 +477,13 @@
     
     ["差", "chà", "worse/to be missing"],
     ["秒", "miǎo", "seconds"],
-    ["刻", "kè", "quarter"]
+    ["刻", "kè", "quarter"],
+    ["小", "xiǎo", "small/briefly (小时 = hour)"],
+    ["时", "shí", "time (小时 = hour)"],
+    ["小时", "xiǎoshí", "hour"],
+    ["钟", "zhōng", "clock"],
+    ["分钟", "fēnzhōng", "minutes"],
+    ["整", "zhěng", "sharp"]
 
 
     
