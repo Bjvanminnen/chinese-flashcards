@@ -3,6 +3,7 @@ const { google } = require('googleapis');
 const authorize = require('./auth');
 
 const SHEET_ID = '1K6u7y-Cjdkt43tzmNzgem5xJJTJNM71-SWny1CEOAJU';
+const CHAR_PATH = __dirname + '/../src/characters.json';
 
 async function pull() {
   const auth = await authorize();
@@ -18,8 +19,8 @@ async function pull() {
     headers,
     characters
   };
-  await fs.writeFile('../src/characters.json', customStringify(data));
-  console.log('Finished');
+  await fs.writeFile(CHAR_PATH, customStringify(data));
+  console.log('Updated characters.json');
 }
 pull();
 

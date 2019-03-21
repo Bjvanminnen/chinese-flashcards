@@ -36,15 +36,24 @@ function shuffle(characters) {
   }));
 }
 
+function getJsonChars() {
+  // Dev mode - TODO: come up with better approach than uncommenting this?
+  // if (true) {
+  //   const characters = require('../characters.json');
+  //   return Promise.resolve(characters);
+  // }
+
+  return fetch('https://raw.githubusercontent.com/Bjvanminnen/chinese-flashcards/master/src/characters.json')
+  .then(result => result.json());
+}
+
 const actions = {
   [GET_CHARACTERS] ({ commit, state }, params) {
     if (state.unshuffled.length) {
       // We already got chars from local storage
       return;
     }
-    // TODO: could emulate "Service" approach
-    fetch('https://raw.githubusercontent.com/Bjvanminnen/chinese-flashcards/master/src/characters.json')
-    .then(result => result.json())
+    getJsonChars()
     .then(json => {
       commit(INIT_CHARACTERS, json.characters);
       commit(RESET_DECK);

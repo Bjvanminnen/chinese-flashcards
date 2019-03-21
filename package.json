@@ -9,7 +9,8 @@
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "deploy": "npm run build && cp now.json dist/ && cd dist && now && now alias && now rm chinese-flashcards --safe --yes"
+    "deploy": "npm run build && cp now.json dist/ && cd dist && now && now alias && now rm chinese-flashcards --safe --yes",
+    "pullchars": "node scripts/pull.js"
   },
   "dependencies": {
     "eslint-config-react-app": "^2.1.0",

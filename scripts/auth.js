@@ -2,7 +2,8 @@ const fs = require('fs').promises;
 const { google } = require('googleapis');
 const readline = require('readline');
 
-const TOKEN_PATH = 'tokens.json';
+const CRED_PATH = __dirname + '/credentials.json';
+const TOKEN_PATH = __dirname + '/tokens.json';
 
 async function authorize() {
 
@@ -26,7 +27,7 @@ async function authorize() {
 }
 
 async function loadCredentials() {
-  const content = await fs.readFile('credentials.json');
+  const content = await fs.readFile(CRED_PATH);
   return JSON.parse(content);
 }
 
