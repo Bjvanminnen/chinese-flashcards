@@ -2,6 +2,8 @@ const fs = require('fs');
 const { google } = require('googleapis');
 const readline = require('readline');
 
+//TODO: fs.promises
+
 const TOKEN_PATH = 'token.json';
 
 async function authorize() {
@@ -13,12 +15,12 @@ async function authorize() {
     const authClient = new google.auth.OAuth2(
       client_id, client_secret, redirect_uris[0]);
 
-    let token = await getCachedToken();
-    if (!token) {
-      token = await createToken(authClient);
+    let tokens = await getCachedTokens();
+    if (!tokens) {
+      tokens = await createTokens(authClient);
     }
 
-    authClient.setCredentials(token);
+    authClient.setCredentials(tokens);
     return authClient;
   } catch(err) {
     console.error(err);
@@ -36,16 +38,18 @@ function loadCredentials() {
   });
 }
 
-function getCachedToken() {
+function getCachedTokens() {
   return new Promise((resolve, reject) => {
     fs.readFile(TOKEN_PATH, (err, content) => {
-      if (err) { resolve(err); }
+      if (err || !content) {
+        return resolve();
+      }
       resolve(JSON.parse(content));
     });
   });
 }
 
-async function createToken(authClient) {
+async function createTokens(authClient) {
   const authUrl = authClient.generateAuthUrl({
     access_type: 'offline',
     scope: ['https://www.googleapis.com/auth/spreadsheets']
@@ -54,13 +58,14 @@ async function createToken(authClient) {
   console.log('Authorize this app by visiting: ', authUrl);
 
   const code = await promptCode();
-  const valid = await validateCode(authClient, code);
-  if (!valid) {
-    throw new Error('invalid code');
-  }
+  const { tokens } = await authClient.getToken(code);
+  // const valid = await validateCode(authClient, code);
+  // if (!valid) {
+  //   throw new Error('invalid code');
+  // }
 
-  await persistCode(code);
-  return code;
+  await persistTokens(tokens);
+  return tokens;
 }
 
  
@@ -92,9 +97,9 @@ function validateCode(authClient, code) {
   });
 }
 
-function persistCode(code) {
+function persistTokens(tokens) {
   return new Promise(resolve =>  {
-    fs.writeFile(TOKEN_PATH, JSON.stringify(code), err => {
+    fs.writeFile(TOKEN_PATH, JSON.stringify(tokens), err => {
       if (err) {
         reject(err);
       }

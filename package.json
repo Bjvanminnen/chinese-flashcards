@@ -17,7 +17,7 @@
     "eslint-plugin-import": "^2.6.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
-    "googleapis": "^27.0.0",
+    "googleapis": "^38.0.0",
     "vue": "^2.5.2",
     "vuex": "^3.0.1"
   },
