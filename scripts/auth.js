@@ -1,10 +1,8 @@
-const fs = require('fs');
+const fs = require('fs').promises;
 const { google } = require('googleapis');
 const readline = require('readline');
 
-//TODO: fs.promises
-
-const TOKEN_PATH = 'token.json';
+const TOKEN_PATH = 'tokens.json';
 
 async function authorize() {
 
@@ -27,26 +25,18 @@ async function authorize() {
   }
 }
 
-function loadCredentials() {
-  return new Promise((resolve, reject) => {
-    fs.readFile('credentials.json', (err, content) => {
-      if (err) { reject(err); }
-  
-      const creds = JSON.parse(content);
-      resolve(creds);
-    });
-  });
+async function loadCredentials() {
+  const content = await fs.readFile('credentials.json');
+  return JSON.parse(content);
 }
 
-function getCachedTokens() {
-  return new Promise((resolve, reject) => {
-    fs.readFile(TOKEN_PATH, (err, content) => {
-      if (err || !content) {
-        return resolve();
-      }
-      resolve(JSON.parse(content));
-    });
-  });
+async function getCachedTokens() {
+  try {
+    const content = await fs.readFile(TOKEN_PATH);
+    return JSON.parse(content);
+  } catch (err) {
+    return;
+  }
 }
 
 async function createTokens(authClient) {
@@ -59,10 +49,6 @@ async function createTokens(authClient) {
 
   const code = await promptCode();
   const { tokens } = await authClient.getToken(code);
-  // const valid = await validateCode(authClient, code);
-  // if (!valid) {
-  //   throw new Error('invalid code');
-  // }
 
   await persistTokens(tokens);
   return tokens;
@@ -83,29 +69,9 @@ function promptCode() {
   });
 }
 
-/**
- * @resolves {Boolean}
- */
-function validateCode(authClient, code) {
-  return new Promise((resolve, reject) => {
-    authClient.getToken(code, (err, token) => {
-      if (err) {
-        return resolve(false);
-      }
-      resolve(true);
-    });
-  });
-}
-
-function persistTokens(tokens) {
-  return new Promise(resolve =>  {
-    fs.writeFile(TOKEN_PATH, JSON.stringify(tokens), err => {
-      if (err) {
-        reject(err);
-      }
-      resolve();
-    });
-  });
+async function persistTokens(tokens) {
+  await fs.writeFile(TOKEN_PATH, JSON.stringify(tokens));
+  return;
 }
 
 module.exports = authorize;
