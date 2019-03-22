@@ -25,13 +25,24 @@ async function pull() {
 pull();
 
 function customStringify(data) {
-  const arrayStr = rg => `[${rg.map(text => `"${text}"`).join(', ')}]`;
+  const arrayStr = rg => `[${rg.map(text => `"${text}"`).join(',\t')}]`;
+
+  let charJson = '';
+  data.characters.forEach((row, index) => {
+    if (index > 0 && data.characters[index][3] !== data.characters[index-1][3]) {
+      charJson += '\n    ';
+    }
+    charJson += arrayStr(row);
+    if (index + 1 < data.characters.length) {
+      charJson += ',\n    ';
+    }
+  });
 
   return `
 {
   "headers": ${arrayStr(data.headers)},
   "characters": [
-    ${data.characters.map(row => arrayStr(row)).join(',\n    ')}
+    ${charJson}
   ]
 }`;
 }
