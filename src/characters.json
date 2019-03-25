@@ -500,8 +500,21 @@
     ["分钟",	"fēnzhōng",	"minutes",	"Time",	"3"],
     ["整",	"zhěng",	"sharp",	"Time",	"3"],
     
-    ["叉",	"chā",	"fork"],
     ["教",	"jiāo",	"to teach"],
-    ["汁",	"zhī",	"juice"]
+    
+    ["叉",	"chā",	"fork",	"Dining",	"2"],
+    ["汁",	"zhī",	"juice",	"Dining",	"2"],
+    ["勺子",	"sháozi",	"spoon",	"Dining",	"2"],
+    ["啤酒",	"píjiǔ",	"beer",	"Dining",	"2"],
+    ["杯",	"bēi",	"cup/glass",	"Dining",	"2"],
+    ["杯子",	"bēizi",	"glass",	"Dining",	"2"],
+    ["德国",	"déguó",	"Germany",	"Dining",	"2"],
+    ["蛋糕",	"dàngāo",	"cake",	"Dining",	"2"],
+    ["香蕉",	"xiāngjiāo",	"banana",	"Dining",	"2"],
+    ["块",	"kuài",	"piece",	"Dining",	"2"],
+    ["碗",	"wǎn",	"bowl",	"Dining",	"2"],
+    ["盘子",	"pánzi",	"plate",	"Dining",	"2"],
+    ["刀",	"dāo",	"knife",	"Dining",	"2"],
+    ["筷",	"kuàizi",	"chopsticks",	"Dining",	"2"]
   ]
 }
