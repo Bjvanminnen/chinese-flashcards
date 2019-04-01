@@ -10,7 +10,8 @@
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
     "deploy": "npm run build && cp now.json dist/ && cd dist && now && now alias && now rm chinese-flashcards --safe --yes",
-    "pullchars": "node scripts/pull.js"
+    "pullchars": "node scripts/pull.js",
+    "sync": "./sync-sheet.sh"
   },
   "dependencies": {
     "eslint-config-react-app": "^2.1.0",
