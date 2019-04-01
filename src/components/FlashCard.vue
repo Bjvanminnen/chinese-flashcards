@@ -142,6 +142,7 @@ export default {
   margin-bottom: 5px;
 }
 .english {
+  height: 100%;
   margin-bottom: 10px;
   font-size: 20px;
 }
