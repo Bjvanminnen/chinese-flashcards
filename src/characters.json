@@ -69,8 +69,6 @@
     ["医",	"yī",	"doctor (医生)",	"Occupation"],
     ["师",	"shī",	"master/teacher (老师 = teacher)",	"Occupation"],
     
-    ["张",	"zhāng",	"a common surname",	"Name"],
-    
     ["电",	"diàn",	"electric (电话 = telephone)",	"Contact"],
     ["话",	"huà",	"words (电话 = telephone)",	"Contact"],
     ["电话",	"diànhuà",	"telephone",	"Contact"],
@@ -310,7 +308,7 @@
     
     ["块",	"kuài",	"yuan/currency counter",	"Payment"],
     ["钱",	"qián",	"money",	"Payment"],
-    ["只",	"zhǐ",	"only",	"Payment"],
+    ["只",	"zhǐ",	"only. also a classifier",	"Payment"],
     ["买",	"mǎi",	"buy",	"Payment"],
     ["一共",	"yígòng",	"一共 = altogether/in total",	"Payment"],
     ["毛",	"máo",	"ten cents",	"Payment"],
@@ -503,7 +501,7 @@
     ["教",	"jiāo",	"to teach"],
     
     ["叉",	"chā",	"fork",	"Dining",	"2"],
-    ["汁",	"zhī",	"juice",	"Dining",	"2"],
+    ["果汁",	"guŏzhī",	"juice",	"Dining",	"2"],
     ["勺子",	"sháozi",	"spoon",	"Dining",	"2"],
     ["啤酒",	"píjiǔ",	"beer",	"Dining",	"2"],
     ["杯",	"bēi",	"cup/glass",	"Dining",	"2"],
@@ -515,6 +513,17 @@
     ["碗",	"wǎn",	"bowl",	"Dining",	"2"],
     ["盘子",	"pánzi",	"plate",	"Dining",	"2"],
     ["刀",	"dāo",	"knife",	"Dining",	"2"],
-    ["筷",	"kuàizi",	"chopsticks",	"Dining",	"2"]
+    ["筷",	"kuàizi",	"chopsticks",	"Dining",	"2"],
+    
+    ["室",	"shì",	"room",	"Existence"],
+    ["辆",	"liàng",	"classifier for land vehicles",	"Existence"],
+    ["办",	"bàn",	"to deal with",	"Existence"],
+    ["办公室",	"bàngōngshì",	"office",	"Existence"],
+    ["本",	"bĕn",	"classifier for books",	"Existence"],
+    ["张",	"zhāng",	"measure word for some flat objects",	"Existence"],
+    ["照片",	"zhàopiàn",	"photo",	"Existence"],
+    ["瓶子",	"píngzi",	"bottle",	"Existence"],
+    ["树",	"shù",	"tree",	"Existence"],
+    ["鸟",	"niǎo",	"bird",	"Existence"]
   ]
 }
