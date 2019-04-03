@@ -11,7 +11,7 @@ async function pull() {
 
   const response = await sheets.spreadsheets.values.get({
     spreadsheetId: SHEET_ID,
-    range: 'Sheet1',
+    range: 'DuoLingo',
   });
   const [headers, ...characters] = response.data.values;
 
