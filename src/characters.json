@@ -524,6 +524,23 @@
     ["照片",	"zhàopiàn",	"photo",	"Existence"],
     ["瓶子",	"píngzi",	"bottle",	"Existence"],
     ["树",	"shù",	"tree",	"Existence"],
-    ["鸟",	"niǎo",	"bird",	"Existence"]
+    ["鸟",	"niǎo",	"bird",	"Existence"],
+    
+    ["游",	"yóu",	"swim (V)",	"Sports",	"2"],
+    ["泳",	"yŏng",	"swim (N)",	"Sports",	"2"],
+    ["跑",	"pǎo",	"run (V)",	"Sports",	"2"],
+    ["步",	"bù",	"step/run (N)",	"Sports",	"2"],
+    ["球",	"qiú",	"ball",	"Sports",	"2"],
+    ["打",	"dǎ",	"to play",	"Sports",	"2"],
+    ["足",	"zú",	"foot",	"Sports",	"2"],
+    ["篮",	"lán",	"basket",	"Sports",	"2"],
+    ["踢",	"tī",	"to play (kick)",	"Sports",	"2"],
+    ["篮球",	"lánqiú",	"basketball",	"Sports",	"2"],
+    ["足球",	"zúqiú",	"football",	"Sports",	"2"],
+    ["骑",	"qí",	"to ride",	"Sports",	"2"],
+    ["运",	"yùn",	"transport",	"Sports",	"2"],
+    ["动",	"dòng",	"to move",	"Sports",	"2"],
+    ["马",	"mǎ",	"horse",	"Sports",	"2"],
+    ["运动",	"yùndòng",	"sport",	"Sports",	"2"]
   ]
 }
