@@ -531,7 +531,7 @@
     ["跑",	"pǎo",	"run (V)",	"Sports",	"2"],
     ["步",	"bù",	"step/run (N)",	"Sports",	"2"],
     ["球",	"qiú",	"ball",	"Sports",	"2"],
-    ["打",	"dǎ",	"to play",	"Sports",	"2"],
+    ["打",	"dǎ",	"to play (to call on phone)",	"Sports",	"2"],
     ["足",	"zú",	"foot",	"Sports",	"2"],
     ["篮",	"lán",	"basket",	"Sports",	"2"],
     ["踢",	"tī",	"to play (kick)",	"Sports",	"2"],
@@ -541,6 +541,20 @@
     ["运",	"yùn",	"transport",	"Sports",	"2"],
     ["动",	"dòng",	"to move",	"Sports",	"2"],
     ["马",	"mǎ",	"horse",	"Sports",	"2"],
-    ["运动",	"yùndòng",	"sport",	"Sports",	"2"]
+    ["运动",	"yùndòng",	"sport",	"Sports",	"2"],
+    
+    ["吧",	"ba",	"lets. word used when asking",	"Invite",	"1"],
+    ["时间",	"shíjiān",	"time",	"Invite",	"1"],
+    ["出去",	"chūqù",	"go out",	"Invite",	"1"],
+    ["有空",	"yǒukòng",	"have time",	"Invite",	"1"],
+    ["来",	"lái",	"to come",	"Invite",	"1"],
+    ["时候",	"shíhou",	"time",	"Invite",	"1"],
+    ["请",	"qĭng",	"to request/invite",	"Invite",	"1"],
+    ["过",	"guò",	"past tensfiy",	"Invite",	"1"],
+    ["不好意思",	"bùhăoyìsi",	"sorry/to feel embarassed",	"Invite",	"1"],
+    ["一起",	"yìqĭ",	"together",	"Invite",	"1"],
+    ["浪漫",	"làngmàn",	"romantic",	"Invite",	"1"],
+    ["告诉",	"gàosù",	"to tell",	"Invite",	"1"],
+    ["约会",	"yuēhuì",	"appointment",	"Invite",	"1"]
   ]
 }
