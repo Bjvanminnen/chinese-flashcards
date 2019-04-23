@@ -555,6 +555,21 @@
     ["一起",	"yìqĭ",	"together",	"Invite",	"1"],
     ["浪漫",	"làngmàn",	"romantic",	"Invite",	"1"],
     ["告诉",	"gàosù",	"to tell",	"Invite",	"1"],
-    ["约会",	"yuēhuì",	"appointment",	"Invite",	"1"]
+    ["约会",	"yuēhuì",	"appointment",	"Invite",	"1"],
+    
+    ["应该",	"yīnggāi",	"should",	"Health",	"2"],
+    ["生病",	"shēngbìng",	"to become ill",	"Health",	"2"],
+    ["舒服",	"shūfu",	"comfortable",	"Health",	"2"],
+    ["肚",	"dù",	"stomach",	"Health",	"2"],
+    ["疼",	"téng",	"ache",	"Health",	"2"],
+    ["休息",	"xiūxi",	"to rest",	"Health",	"2"],
+    ["头",	"tóu",	"head",	"Health",	"2"],
+    ["感冒",	"gǎnmào",	"catch a cold",	"Health",	"2"],
+    ["留",	"liú",	"stay",	"Health",	"2"],
+    ["一定",	"yídìng",	"certainly/must",	"Health",	"2"],
+    ["药",	"yào",	"medicine",	"Health",	"2"],
+    ["发烧",	"fāshāo",	"fever",	"Health",	"2"],
+    ["请假",	"qĭngjià",	"ask for leave",	"Health",	"2"],
+    ["别",	"bié",	"do not",	"Health",	"2"]
   ]
 }
