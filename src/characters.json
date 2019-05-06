@@ -570,6 +570,20 @@
     ["药",	"yào",	"medicine",	"Health",	"2"],
     ["发烧",	"fāshāo",	"fever",	"Health",	"2"],
     ["请假",	"qĭngjià",	"ask for leave",	"Health",	"2"],
-    ["别",	"bié",	"do not",	"Health",	"2"]
+    ["别",	"bié",	"do not",	"Health",	"2"],
+    
+    ["能",	"néng",	"can",	"Invite",	"2"],
+    ["派对",	"pàiduì",	"party",	"Invite",	"2"],
+    ["打扮",	"dăbàn",	"dress up",	"Invite",	"2"],
+    ["生日",	"shēngrì",	"birthday",	"Invite",	"2"],
+    ["希望",	"xīwàng",	"hope",	"Invite",	"2"],
+    ["跟",	"gēn",	"with",	"Invite",	"2"],
+    ["公司 ",	"gōngsī",	"company",	"Invite",	"2"],
+    ["正在",	"zhèngzài",	"right now",	"Invite",	"2"],
+    ["大家",	"dàjiā",	"everyone",	"Invite",	"2"],
+    ["事情",	"shìqíng",	"matter",	"Invite",	"2"],
+    ["才",	"cái",	"only able to",	"Invite",	"2"],
+    ["一件事情",	"yī jiàn shìqíng",	"something",	"Invite",	"2"],
+    ["很多",	"hěnduō",	"many",	"Invite",	"2"]
   ]
 }
