@@ -491,14 +491,13 @@
     ["差",	"chà",	"worse/to be missing",	"Time",	"3"],
     ["秒",	"miǎo",	"seconds",	"Time",	"3"],
     ["刻",	"kè",	"quarter",	"Time",	"3"],
-    ["小",	"xiǎo",	"small/briefly (小时 = hour)",	"Time",	"3"],
+    ["小",	"xiǎo",	"small/briefly/less (小时 = hour)",	"Time",	"3"],
     ["时",	"shí",	"time (小时 = hour)",	"Time",	"3"],
     ["小时",	"xiǎoshí",	"hour",	"Time",	"3"],
     ["钟",	"zhōng",	"clock",	"Time",	"3"],
     ["分钟",	"fēnzhōng",	"minutes",	"Time",	"3"],
     ["整",	"zhěng",	"sharp",	"Time",	"3"],
-    
-    ["教",	"jiāo",	"to teach"],
+    ["教",	"jiāo",	"to teach",	"Time",	"3"],
     
     ["叉",	"chā",	"fork",	"Dining",	"2"],
     ["果汁",	"guŏzhī",	"juice",	"Dining",	"2"],
@@ -549,7 +548,7 @@
     ["有空",	"yǒukòng",	"have time",	"Invite",	"1"],
     ["来",	"lái",	"to come",	"Invite",	"1"],
     ["时候",	"shíhou",	"time",	"Invite",	"1"],
-    ["请",	"qĭng",	"to request/invite",	"Invite",	"1"],
+    ["请",	"qĭng",	"to request/invite/treat",	"Invite",	"1"],
     ["过",	"guò",	"past tensfiy",	"Invite",	"1"],
     ["不好意思",	"bùhăoyìsi",	"sorry/to feel embarassed",	"Invite",	"1"],
     ["一起",	"yìqĭ",	"together",	"Invite",	"1"],
@@ -584,6 +583,17 @@
     ["事情",	"shìqíng",	"matter",	"Invite",	"2"],
     ["才",	"cái",	"only able to",	"Invite",	"2"],
     ["一件事情",	"yī jiàn shìqíng",	"something",	"Invite",	"2"],
-    ["很多",	"hěnduō",	"many",	"Invite",	"2"]
+    ["很多",	"hěnduō",	"many",	"Invite",	"2"],
+    
+    ["小费",	"xiăofèi",	"tip",	"Dining",	"3"],
+    ["完",	"wán",	"to finish",	"Dining",	"3"],
+    ["已经",	"yǐjīng",	"already",	"Dining",	"3"],
+    ["真",	"zhēn",	"really/true",	"Dining",	"3"],
+    ["饱",	"bǎo",	"full",	"Dining",	"3"],
+    ["饿",	"è",	"hungry",	"Dining",	"3"],
+    ["渴",	"kě",	"thirsty",	"Dining",	"3"],
+    ["巧克力",	"qiǎokèlì",	"chocolate",	"Dining",	"3"],
+    ["甜点",	"tiándiăn",	"dessert",	"Dining",	"3"],
+    ["味道",	"wèidào",	"chocolate",	"Dining",	"3"]
   ]
 }
