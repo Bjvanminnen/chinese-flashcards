@@ -408,7 +408,7 @@
     ["为",	"wèi",	"for",	"Hobbies",	"2"],
     ["习",	"xí",	"practice/study",	"Hobbies",	"2"],
     ["西班牙",	"xībānyá",	"Spain",	"Hobbies",	"2"],
-    ["因",	"yīn",	"because",	"Hobbies",	"2"],
+    ["因为",	"yīnwèi",	"because",	"Hobbies",	"2"],
     ["所",	"suǒ",	"place",	"Hobbies",	"2"],
     ["以",	"yĭ",	"to use/because of",	"Hobbies",	"2"],
     ["所以",	"suǒyĭ",	"therefore/so",	"Hobbies",	"2"],
@@ -594,6 +594,22 @@
     ["渴",	"kě",	"thirsty",	"Dining",	"3"],
     ["巧克力",	"qiǎokèlì",	"chocolate",	"Dining",	"3"],
     ["甜点",	"tiándiăn",	"dessert",	"Dining",	"3"],
-    ["味道",	"wèidào",	"chocolate",	"Dining",	"3"]
+    ["味道",	"wèidào",	"taste",	"Dining",	"3"],
+    
+    ["试",	"shì",	"to try/to test",	"Shopping",	"2"],
+    ["裙子",	"qúnzi",	"dress/skirt",	"Shopping",	"2"],
+    ["蓝",	"lán",	"blue",	"Shopping",	"2"],
+    ["条",	"tiáo",	"classifier: long, narrow, flexible objects (dogs/dresses/pants)",	"Shopping",	"2"],
+    
+    ["鞋子",	"xiézi",	"shoes"],
+    ["色",	"sè",	"color"],
+    ["双",	"shuāng",	"pair"],
+    ["意大利",	"yìdàlì",	"Italy"],
+    ["还",	"hái",	"still"],
+    ["衬衫",	"chènshān",	"shirt"],
+    ["比",	"bǐ",	"than/to compare"],
+    ["质量",	"zhìliàng",	"quality"],
+    ["裤子",	"kùzi",	"pants"],
+    ["大",	"dà",	"big"]
   ]
 }
