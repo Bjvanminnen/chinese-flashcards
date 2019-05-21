@@ -600,16 +600,15 @@
     ["裙子",	"qúnzi",	"dress/skirt",	"Shopping",	"2"],
     ["蓝",	"lán",	"blue",	"Shopping",	"2"],
     ["条",	"tiáo",	"classifier: long, narrow, flexible objects (dogs/dresses/pants)",	"Shopping",	"2"],
-    
-    ["鞋子",	"xiézi",	"shoes"],
-    ["色",	"sè",	"color"],
-    ["双",	"shuāng",	"pair"],
-    ["意大利",	"yìdàlì",	"Italy"],
-    ["还",	"hái",	"still"],
-    ["衬衫",	"chènshān",	"shirt"],
-    ["比",	"bǐ",	"than/to compare"],
-    ["质量",	"zhìliàng",	"quality"],
-    ["裤子",	"kùzi",	"pants"],
-    ["大",	"dà",	"big"]
+    ["鞋子",	"xiézi",	"shoes",	"Shopping",	"2"],
+    ["色",	"sè",	"color",	"Shopping",	"2"],
+    ["双",	"shuāng",	"pair",	"Shopping",	"2"],
+    ["意大利",	"yìdàlì",	"Italy",	"Shopping",	"2"],
+    ["还",	"hái",	"still",	"Shopping",	"2"],
+    ["衬衫",	"chènshān",	"shirt",	"Shopping",	"2"],
+    ["比",	"bǐ",	"than/to compare",	"Shopping",	"2"],
+    ["质量",	"zhìliàng",	"quality",	"Shopping",	"2"],
+    ["裤子",	"kùzi",	"pants",	"Shopping",	"2"],
+    ["大",	"dà",	"big",	"Shopping",	"2"]
   ]
 }
