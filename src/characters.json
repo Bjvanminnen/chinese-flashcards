@@ -609,6 +609,18 @@
     ["比",	"bǐ",	"than/to compare",	"Shopping",	"2"],
     ["质量",	"zhìliàng",	"quality",	"Shopping",	"2"],
     ["裤子",	"kùzi",	"pants",	"Shopping",	"2"],
-    ["大",	"dà",	"big",	"Shopping",	"2"]
+    ["大",	"dà",	"big",	"Shopping",	"2"],
+    
+    ["眼睛",	"yǎnjīng",	"eye",	"Body Parts"],
+    ["耳朵",	"ěrduǒ",	"ear",	"Body Parts"],
+    ["绿",	"lǜ",	"green",	"Body Parts"],
+    ["又",	"yòu",	"both",	"Body Parts"],
+    ["黑",	"hēi",	"black",	"Body Parts"],
+    ["头发",	"tóufà",	"hair",	"Body Parts"],
+    ["脸",	"liǎn",	"face",	"Body Parts"],
+    ["鼻子",	"bízi",	"nose",	"Body Parts"],
+    ["嘴巴",	"zuǐbā",	"mouth",	"Body Parts"],
+    ["脚",	"jiǎo",	"foot",	"Body Parts"],
+    ["手",	"shŏu",	"hand",	"Body Parts"]
   ]
 }
