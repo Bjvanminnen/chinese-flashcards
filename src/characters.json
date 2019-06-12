@@ -297,7 +297,7 @@
     
     ["起",	"qǐ",	"raise",	"Routine",	"1"],
     ["床",	"chuáng",	"bed",	"Routine",	"1"],
-    ["班",	"bān",	"work",	"Routine",	"1"],
+    ["班",	"shàngbān",	"to go to work",	"Routine",	"1"],
     ["早饭",	"zǎofàn",	"breakfast",	"Routine",	"1"],
     ["起床",	"qǐchuáng",	"get up",	"Routine",	"1"],
     ["睡觉",	"shuìjiào",	"slept",	"Routine",	"1"],
@@ -516,7 +516,9 @@
     
     ["室",	"shì",	"room",	"Existence"],
     ["辆",	"liàng",	"classifier for land vehicles",	"Existence"],
-    ["办",	"bàn",	"to deal with",	"Existence"],
+    
+    [],
+    
     ["办公室",	"bàngōngshì",	"office",	"Existence"],
     ["本",	"bĕn",	"classifier for books",	"Existence"],
     ["张",	"zhāng",	"measure word for some flat objects",	"Existence"],
@@ -621,6 +623,22 @@
     ["鼻子",	"bízi",	"nose",	"Body Parts"],
     ["嘴巴",	"zuǐbā",	"mouth",	"Body Parts"],
     ["脚",	"jiǎo",	"foot",	"Body Parts"],
-    ["手",	"shŏu",	"hand",	"Body Parts"]
+    ["手",	"shŏu",	"hand",	"Body Parts"],
+    
+    ["远",	"yuǎn",	"far",	"Travel"],
+    ["离",	"lí",	"from",	"Travel"],
+    ["走路",	"zŏulù",	"walk",	"Travel"],
+    ["近",	"jìn",	"close",	"Travel"],
+    ["飞机",	"fēijī",	"airplane",	"Travel"],
+    ["靠",	"kào",	"near",	"Travel"],
+    ["停",	"tíng",	"to stop",	"Travel"],
+    ["机场",	"jīchăng",	"airport",	"Travel"],
+    ["开车",	"kāichē",	"drive",	"Travel"],
+    ["火车",	"huǒchē",	"train",	"Travel"],
+    ["票",	"piào",	"ticket",	"Travel"],
+    ["得",	"dĕi",	"need (followed by verb)",	"Travel"],
+    ["让",	"ràng",	"allow",	"Travel"],
+    ["迟",	"chí",	"late",	"Travel"],
+    ["办",	"bàn",	"to do",	"Travel"]
   ]
 }
