@@ -107,31 +107,16 @@
     
     ["家",	"jiā",	"home. measure word for establishments",	"Location",	"1"],
     ["在",	"zài",	"in/at/present",	"Location",	"1"],
-    ["北",	"běi",	"north (北京 = Beijing)",	"Location",	"1"],
-    ["京",	"jīng",	"capital (北京 = Beijing)",	"Location",	"1"],
     ["北京",	"běijīng",	"Beijing",	"Location",	"1"],
-    ["港",	"gǎng",	"port (香港 = Hong Kong)",	"Location",	"1"],
-    ["纽",	"niǔ",	"tie (纽约 = New York)",	"Location",	"1"],
-    ["约",	"yuē",	"to arrange (纽约 = New York)",	"Location",	"1"],
     ["哪儿",	"nă'r",	"where",	"Location",	"1"],
-    ["香",	"xiāng",	"fragrant (香港 = Hong Kong)",	"Location",	"1"],
     ["纽约",	"niǔyuē",	"New York",	"Location",	"1"],
     ["香港",	"xiānggǎng",	"Hong Kong",	"Location",	"1"],
-    ["伦",	"lún",	"human relations (伦敦 = London)",	"Location",	"1"],
     ["住",	"zhù",	"to live",	"Location",	"1"],
-    ["敦",	"dūn",	"honest (伦敦 = London)",	"Location",	"1"],
     ["伦敦",	"lúndūn",	"London",	"Location",	"1"],
-    ["台",	"tái",	"desk (台湾 = Taiwan)",	"Location",	"1"],
-    ["湾",	"wān",	"bay (台湾 = Taiwan)",	"Location",	"1"],
     ["台湾",	"táiwān",	"Taiwan",	"Location",	"1"],
     
     ["谢",	"xiè",	"to thank",	"Phrases",	"1"],
-    ["气",	"qì",	"air (不客气 = you're welcome)",	"Phrases",	"1"],
-    ["客",	"kè",	"welcome (不客气 = you're welcome)",	"Phrases",	"1"],
-    ["关",	"guān",	"(没关系 = no worries)",	"Phrases",	"1"],
-    ["系",	"xì",	"(没关系 = no worries)",	"Phrases",	"1"],
-    ["起",	"qǐ",	"(对不起 = sorry)",	"Phrases",	"1"],
-    ["没",	"méi",	"not/don't (没关系 = no worries)",	"Phrases",	"1"],
+    ["不客气",	"bùkèqì",	"you're welcome",	"Phrases",	"1"],
     ["没关系",	"méiguānqǐ",	"no worries",	"Phrases",	"1"],
     ["对不起",	"duìbùqǐ",	"sorry",	"Phrases",	"1"],
     
@@ -241,7 +226,6 @@
     ["非",	"fēi",	"(非常 = extremely)",	"People",	"1"],
     ["常",	"cháng",	"(非常 = extremely)",	"People",	"1"],
     ["非常",	"fēicháng",	"extremely",	"People",	"1"],
-    ["可",	"kě",	"can/but (可爱 = cute)",	"People",	"1"],
     ["可爱",	"kěài",	"cute",	"People",	"1"],
     
     ["下",	"xià",	"next/down/under (下午 = afternoon)",	"Time",	"2"],
@@ -297,7 +281,7 @@
     
     ["起",	"qǐ",	"raise",	"Routine",	"1"],
     ["床",	"chuáng",	"bed",	"Routine",	"1"],
-    ["班",	"shàngbān",	"to go to work",	"Routine",	"1"],
+    ["上班",	"shàngbān",	"to go to work",	"Routine",	"1"],
     ["早饭",	"zǎofàn",	"breakfast",	"Routine",	"1"],
     ["起床",	"qǐchuáng",	"get up",	"Routine",	"1"],
     ["睡觉",	"shuìjiào",	"slept",	"Routine",	"1"],
@@ -516,9 +500,6 @@
     
     ["室",	"shì",	"room",	"Existence"],
     ["辆",	"liàng",	"classifier for land vehicles",	"Existence"],
-    
-    [],
-    
     ["办公室",	"bàngōngshì",	"office",	"Existence"],
     ["本",	"bĕn",	"classifier for books",	"Existence"],
     ["张",	"zhāng",	"measure word for some flat objects",	"Existence"],
@@ -630,7 +611,7 @@
     ["走路",	"zŏulù",	"walk",	"Travel"],
     ["近",	"jìn",	"close",	"Travel"],
     ["飞机",	"fēijī",	"airplane",	"Travel"],
-    ["靠",	"kào",	"near",	"Travel"],
+    ["靠",	"kào",	"depend on/get close to",	"Travel"],
     ["停",	"tíng",	"to stop",	"Travel"],
     ["机场",	"jīchăng",	"airport",	"Travel"],
     ["开车",	"kāichē",	"drive",	"Travel"],
@@ -639,6 +620,24 @@
     ["得",	"dĕi",	"need (followed by verb)",	"Travel"],
     ["让",	"ràng",	"allow",	"Travel"],
     ["迟",	"chí",	"late",	"Travel"],
-    ["办",	"bàn",	"to do",	"Travel"]
+    ["办",	"bàn",	"to do",	"Travel"],
+    ["走路",	"zǒulù",	"walk",	"Travel"],
+    
+    ["晴",	"qíng",	"sunny",	"Weather"],
+    ["冷",	"lěng",	"cold",	"Weather"],
+    ["天气",	"tiānqì",	"weather",	"Weather"],
+    ["雪",	"xuě",	"snow",	"Weather"],
+    ["阴",	"yīn",	"cloudy",	"Weather"],
+    ["雨",	"yǔ",	"rain",	"Weather"],
+    ["伞",	"sǎn",	"umbrella",	"Weather"],
+    ["带",	"dài",	"bring",	"Weather"],
+    ["着",	"zhe",	"particle",	"Weather"],
+    ["外面",	"wàimiàn",	"outside",	"Weather"],
+    ["里面",	"lĭmiàn",	"inside",	"Weather"],
+    ["刮风",	"guāfēng",	"windy",	"Weather"],
+    ["可能",	"kĕnéng",	"may/maybe",	"Weather"],
+    ["就",	"jiù",	"then",	"Weather"],
+    ["如果",	"rúguŏ",	"if",	"Weather"],
+    ["从来",	"cónglái",	"always",	"Weather"]
   ]
 }
