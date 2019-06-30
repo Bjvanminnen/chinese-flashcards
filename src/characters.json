@@ -266,7 +266,6 @@
     ["戏",	"xì",	"(游戏 = games)",	"Hobbies",	"1"],
     ["游",	"yóu",	"(游戏 = games)",	"Hobbies",	"1"],
     ["玩",	"wán",	"play",	"Hobbies",	"1"],
-    ["最",	"zuì",	"most",	"Hobbies",	"1"],
     ["脑",	"nǎo",	"brain (电脑 = computer)",	"Hobbies",	"1"],
     ["电脑",	"diànnǎo",	"computer",	"Hobbies",	"1"],
     ["游戏",	"yóuxì",	"games",	"Hobbies",	"1"],
@@ -587,7 +586,6 @@
     ["色",	"sè",	"color",	"Shopping",	"2"],
     ["双",	"shuāng",	"pair",	"Shopping",	"2"],
     ["意大利",	"yìdàlì",	"Italy",	"Shopping",	"2"],
-    ["还",	"hái",	"still",	"Shopping",	"2"],
     ["衬衫",	"chènshān",	"shirt",	"Shopping",	"2"],
     ["比",	"bǐ",	"than/to compare",	"Shopping",	"2"],
     ["质量",	"zhìliàng",	"quality",	"Shopping",	"2"],
@@ -621,7 +619,6 @@
     ["让",	"ràng",	"allow",	"Travel"],
     ["迟",	"chí",	"late",	"Travel"],
     ["办",	"bàn",	"to do",	"Travel"],
-    ["走路",	"zǒulù",	"walk",	"Travel"],
     
     ["晴",	"qíng",	"sunny",	"Weather"],
     ["冷",	"lěng",	"cold",	"Weather"],
