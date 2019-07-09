@@ -313,8 +313,6 @@
     ["影",	"yǐng",	"电影 = movie",	"Entertain"],
     ["干",	"gàn",	"do",	"Entertain"],
     ["想",	"xiǎng",	"would/would like",	"Entertain"],
-    ["纸",	"zhǐ",	"报纸 = newspaper",	"Entertain"],
-    ["报",	"bào",	"报纸 = newspaper",	"Entertain"],
     ["报纸",	"bàozhǐ",	"newspaper",	"Entertain"],
     ["网",	"wǎng",	"上网 = online",	"Entertain"],
     ["闻",	"wén",	"to hear",	"Entertain"],
@@ -322,8 +320,7 @@
     ["新",	"xīn",	"new",	"Entertain"],
     ["机",	"jī",	"手机 = cell phone",	"Entertain"],
     ["手机",	"shǒujī",	"cell phone",	"Entertain"],
-    ["节",	"jié",	"节目 = shows",	"Entertain"],
-    ["目",	"mù",	"节目 = shows",	"Entertain"],
+    ["节目",	"jiémù",	"shows",	"Entertain"],
     ["体",	"tǐ",	"body",	"Entertain"],
     ["育",	"yù",	"to educate/train",	"Entertain"],
     ["体育",	"tǐyù",	"sports",	"Entertain"],
@@ -635,6 +632,17 @@
     ["可能",	"kĕnéng",	"may/maybe",	"Weather"],
     ["就",	"jiù",	"then",	"Weather"],
     ["如果",	"rúguŏ",	"if",	"Weather"],
-    ["从来",	"cónglái",	"always",	"Weather"]
+    ["从来",	"cónglái",	"always",	"Weather"],
+    
+    ["但是",	"dànshì",	"however/but",	"Shopping",	"3"],
+    ["虽然",	"suīrán",	"although",	"Shopping",	"3"],
+    ["短",	"duǎn",	"short",	"Shopping",	"3"],
+    ["长",	"cháng",	"long",	"Shopping",	"3"],
+    ["颜色",	"yánsè",	"color",	"Shopping",	"3"],
+    ["红",	"hóng",	"red",	"Shopping",	"3"],
+    ["穿",	"chuān",	"wear",	"Shopping",	"3"],
+    ["洗",	"xǐ",	"wash",	"Shopping",	"3"],
+    ["白",	"bái",	"white",	"Shopping",	"3"],
+    ["黄",	"huáng",	"yellow",	"Shopping",	"3"]
   ]
 }
