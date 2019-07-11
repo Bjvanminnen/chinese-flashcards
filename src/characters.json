@@ -643,6 +643,10 @@
     ["穿",	"chuān",	"wear",	"Shopping",	"3"],
     ["洗",	"xǐ",	"wash",	"Shopping",	"3"],
     ["白",	"bái",	"white",	"Shopping",	"3"],
-    ["黄",	"huáng",	"yellow",	"Shopping",	"3"]
+    ["黄",	"huáng",	"yellow",	"Shopping",	"3"],
+    ["手表",	"shŏubiǎo",	"wristwatch",	"Shopping",	"3"],
+    ["紫",	"zǐ",	"purple",	"Shopping",	"3"],
+    ["卖",	"mài",	"to sell",	"Shopping",	"3"],
+    ["帽子",	"màozi",	"",	"Shopping",	"3"]
   ]
 }
