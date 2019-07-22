@@ -312,7 +312,7 @@
     ["视",	"shì",	"电视 = television",	"Entertain"],
     ["影",	"yǐng",	"电影 = movie",	"Entertain"],
     ["干",	"gàn",	"do",	"Entertain"],
-    ["想",	"xiǎng",	"would/would like",	"Entertain"],
+    ["想",	"xiǎng",	"think/would/would like",	"Entertain"],
     ["报纸",	"bàozhǐ",	"newspaper",	"Entertain"],
     ["网",	"wǎng",	"上网 = online",	"Entertain"],
     ["闻",	"wén",	"to hear",	"Entertain"],
@@ -628,7 +628,8 @@
     ["着",	"zhe",	"particle",	"Weather"],
     ["外面",	"wàimiàn",	"outside",	"Weather"],
     ["里面",	"lĭmiàn",	"inside",	"Weather"],
-    ["刮风",	"guāfēng",	"windy",	"Weather"],
+    ["风",	"fēng",	"wind",	"Weather"],
+    ["刮风",	"guāfēng",	"to be windy",	"Weather"],
     ["可能",	"kĕnéng",	"may/maybe",	"Weather"],
     ["就",	"jiù",	"then",	"Weather"],
     ["如果",	"rúguŏ",	"if",	"Weather"],
@@ -647,6 +648,15 @@
     ["手表",	"shŏubiǎo",	"wristwatch",	"Shopping",	"3"],
     ["紫",	"zǐ",	"purple",	"Shopping",	"3"],
     ["卖",	"mài",	"to sell",	"Shopping",	"3"],
-    ["帽子",	"màozi",	"",	"Shopping",	"3"]
+    ["帽子",	"màozi",	"hat",	"Shopping",	"3"],
+    
+    ["介绍",	"jièshào",	"introduce",	"People",	"2"],
+    ["帅",	"shuài",	"handsome",	"People",	"2"],
+    ["笑",	"xiào",	"laugh/smile",	"People",	"2"],
+    ["说话",	"shuōhuà",	"speaking",	"People",	"2"],
+    ["而且",	"érqiě",	"but also",	"People",	"2"],
+    ["不但 ",	"bùdàn",	"not only",	"People",	"2"],
+    ["聪明",	"cōngming",	"intelligent",	"People",	"2"],
+    ["别人",	"biérén",	"other people",	"People",	"2"]
   ]
 }
