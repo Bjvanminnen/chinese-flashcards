@@ -650,13 +650,23 @@
     ["卖",	"mài",	"to sell",	"Shopping",	"3"],
     ["帽子",	"màozi",	"hat",	"Shopping",	"3"],
     
-    ["介绍",	"jièshào",	"introduce",	"People",	"2"],
+    ["介绍",	"jièshào",	"introduction",	"People",	"2"],
     ["帅",	"shuài",	"handsome",	"People",	"2"],
     ["笑",	"xiào",	"laugh/smile",	"People",	"2"],
     ["说话",	"shuōhuà",	"speaking",	"People",	"2"],
     ["而且",	"érqiě",	"but also",	"People",	"2"],
     ["不但 ",	"bùdàn",	"not only",	"People",	"2"],
     ["聪明",	"cōngming",	"intelligent",	"People",	"2"],
-    ["别人",	"biérén",	"other people",	"People",	"2"]
+    ["别人",	"biérén",	"other people",	"People",	"2"],
+    
+    ["春",	"chūn",	"spring",	"Celebration",	"1"],
+    ["快乐 ",	"kuàilè",	"happy",	"Celebration",	"1"],
+    ["节日",	"jiérì",	"festival",	"Celebration",	"1"],
+    ["礼物",	"lǐwù",	"gift",	"Celebration",	"1"],
+    ["送给",	"sònggĕi",	"give as a gift",	"Celebration",	"1"],
+    ["过",	"guò",	"spend/celebrate",	"Celebration",	"1"],
+    ["法国",	"fǎguó",	"France",	"Celebration",	"1"],
+    ["祝",	"zhù",	"wish/may",	"Celebration",	"1"],
+    ["干杯",	"gānbēi",	"cheers",	"Celebration",	"1"]
   ]
 }
