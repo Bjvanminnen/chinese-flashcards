@@ -667,6 +667,19 @@
     ["过",	"guò",	"spend/celebrate",	"Celebration",	"1"],
     ["法国",	"fǎguó",	"France",	"Celebration",	"1"],
     ["祝",	"zhù",	"wish/may",	"Celebration",	"1"],
-    ["干杯",	"gānbēi",	"cheers",	"Celebration",	"1"]
+    ["干杯",	"gānbēi",	"cheers",	"Celebration",	"1"],
+    
+    ["比赛",	"bĭsài",	"match",	"Sports",	"2"],
+    ["乒乓球",	"pīngpāngqiú",	"table tennis",	"Sports",	"2"],
+    ["练习",	"liànxí",	"practice",	"Sports",	"2"],
+    ["第",	"dì",	"ordinal",	"Sports",	"2"],
+    ["排球",	"páiqiú",	"volleyball",	"Sports",	"2"],
+    ["加油",	"jiāyóu",	"come on",	"Sports",	"2"],
+    ["参加",	"cānjiā",	"to join/take part/participate",	"Sports",	"2"],
+    ["网球",	"wăngqiú",	"tennis",	"Sports",	"2"],
+    ["赢",	"yíng",	"win",	"Sports",	"2"],
+    ["失望",	"shīwàng",	"disappointed",	"Sports",	"2"],
+    ["信心",	"xìnxīn",	"confidence",	"Sports",	"2"],
+    ["输",	"shū",	"lose",	"Sports",	"2"]
   ]
 }
