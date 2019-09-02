@@ -682,6 +682,18 @@
     ["信心",	"xìnxīn",	"confidence",	"Sports",	"2"],
     ["输",	"shū",	"lose",	"Sports",	"2"],
     ["教室",	"jiàoshì",	"classroom",	"Sports",	"2"],
-    ["好在",	"hǎozài",	"luckily",	"Sports",	"2"]
+    ["好在",	"hǎozài",	"luckily",	"Sports",	"2"],
+    
+    ["课",	"kè",	"class/course",	"School"],
+    ["同学",	"tóngxué",	"classmates",	"School"],
+    ["地理",	"dìlǐ",	"geography",	"School"],
+    ["教室",	"jiàoshì",	"classroom",	"School"],
+    ["懂",	"dǒng",	"understand",	"School"],
+    ["美术",	"mĕishù",	"art",	"School"],
+    ["笔",	"bǐ",	"pen",	"School"],
+    ["问题",	"wèntí",	"questions/problems",	"School"],
+    ["考试",	"kǎoshì",	"test/exam",	"School"],
+    ["科学",	"kēxué",	"science",	"School"],
+    ["准备",	"zhŭnbèi",	"to prepare",	"School"]
   ]
 }
