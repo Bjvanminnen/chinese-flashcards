@@ -694,6 +694,16 @@
     ["问题",	"wèntí",	"questions/problems",	"School"],
     ["考试",	"kǎoshì",	"test/exam",	"School"],
     ["科学",	"kēxué",	"science",	"School"],
-    ["准备",	"zhŭnbèi",	"to prepare",	"School"]
+    ["准备",	"zhŭnbèi",	"to prepare",	"School"],
+    
+    ["爷爷",	"yéye",	"grandpa",	"Family",	"3"],
+    ["阿姨",	"āyí",	"aunt",	"Family",	"3"],
+    ["奶奶",	"năinai",	"grandma",	"Family",	"3"],
+    ["叔叔",	"shūshu",	"uncle",	"Family",	"3"],
+    ["兄弟姐妹",	"xiōngdìjiĕmè",	"siblings",	"Family",	"3"],
+    ["父母",	"fùmǔ",	"parents",	"Family",	"3"],
+    ["关系",	"guānxì",	"relationship",	"Family",	"3"],
+    ["亲戚",	"qīnqī",	"relative",	"Family",	"3"],
+    ["像",	"xiàng",	"resemble",	"Family",	"3"]
   ]
 }
