@@ -704,6 +704,16 @@
     ["父母",	"fùmǔ",	"parents",	"Family",	"3"],
     ["关系",	"guānxì",	"relationship",	"Family",	"3"],
     ["亲戚",	"qīnqī",	"relative",	"Family",	"3"],
-    ["像",	"xiàng",	"resemble",	"Family",	"3"]
+    ["像",	"xiàng",	"resemble",	"Family",	"3"],
+    
+    ["小笼包",	"xiǎolóngbāo",	"soup dumpling",	"Gourmet",	"1"],
+    ["拉面",	"lāmiàn",	"ramen",	"Gourmet",	"1"],
+    ["点心",	"diǎnxīn",	"dim sum",	"Gourmet",	"1"],
+    ["粥",	"zhōu",	"congee",	"Gourmet",	"1"],
+    ["豆浆",	"dòujiāng",	"soy milk",	"Gourmet",	"1"],
+    ["油条",	"yóutiáo",	"fried dough stick",	"Gourmet",	"1"],
+    ["炒饭",	"chǎofàn",	"fried rice",	"Gourmet",	"1"],
+    ["火锅",	"huǒguō",	"hot pot",	"Gourmet",	"1"],
+    ["火",	"huǒ",	"fire",	"Gourmet",	"1"]
   ]
 }
