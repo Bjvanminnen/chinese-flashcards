@@ -249,9 +249,10 @@
     ["左",	"zuǒ",	"left (左边 = to the left)",	"Location",	"3"],
     ["边",	"biān",	"side (旁边 = next to)",	"Location",	"3"],
     ["旁边",	"pángbiān",	"next to",	"Location",	"3"],
-    ["前",	"qián",	"front (前面 = in front of/ahead)",	"Location",	"3"],
+    ["前",	"qián",	"front/before/former/ago",	"Location",	"3"],
+    ["前面",	"qiánmiàn",	"in front of",	"Location",	"3"],
     ["校",	"xiào",	"学校 = school",	"Location",	"3"],
-    ["后",	"hòu",	"back (后面 = behind)",	"Location",	"3"],
+    ["后面",	"hòumiàn",	"back/behind/afterward",	"Location",	"3"],
     ["路",	"lù",	"road/the way",	"Location",	"3"],
     ["到",	"dào",	"get/reach",	"Location",	"3"],
     ["走",	"zǒu",	"go/walking",	"Location",	"3"],
@@ -714,6 +715,17 @@
     ["油条",	"yóutiáo",	"fried dough stick",	"Gourmet",	"1"],
     ["炒饭",	"chǎofàn",	"fried rice",	"Gourmet",	"1"],
     ["火锅",	"huǒguō",	"hot pot",	"Gourmet",	"1"],
-    ["火",	"huǒ",	"fire",	"Gourmet",	"1"]
+    ["火",	"huǒ",	"fire",	"Gourmet",	"1"],
+    
+    ["夏",	"xià",	"summer",	"Time",	"4"],
+    ["秋",	"qiū",	"autumn",	"Time",	"4"],
+    ["冬",	"dōng",	"winter",	"Time",	"4"],
+    ["澳大利亚",	"àodàlìyà",	"Australia",	"Time",	"4"],
+    ["季节",	"jìjié",	"season",	"Time",	"4"],
+    ["越来越",	"yuèláiyuè",	"more and more",	"Time",	"4"],
+    ["刚",	"gāng",	"just",	"Time",	"4"],
+    ["堵车",	"dŭchē",	"traffic jam",	"Time",	"4"],
+    ["大概",	"dàgài",	"probably",	"Time",	"4"],
+    ["准时",	"zhŭnshí",	"on time",	"Time",	"4"]
   ]
 }
