@@ -173,7 +173,7 @@
     ["手",	"shǒu",	"hand (洗手间 = toilet)",	"Location",	"2"],
     ["院",	"yuàn",	"hospital (医院)",	"Location",	"2"],
     ["间",	"jiān",	"room classifier (洗手间 = toilet)",	"Location",	"2"],
-    ["馆",	"guǎn",	"hall (饭馆 = restaurant)",	"Location",	"2"],
+    ["馆",	"guǎn",	"hall/shop",	"Location",	"2"],
     ["洗手间",	"xǐshǒujiān",	"toilet/bathroom",	"Location",	"2"],
     ["饭馆",	"fànguǎn",	"restaurant",	"Location",	"2"],
     
@@ -726,6 +726,14 @@
     ["刚",	"gāng",	"just",	"Time",	"4"],
     ["堵车",	"dŭchē",	"traffic jam",	"Time",	"4"],
     ["大概",	"dàgài",	"probably",	"Time",	"4"],
-    ["准时",	"zhŭnshí",	"on time",	"Time",	"4"]
+    ["准时",	"zhŭnshí",	"on time",	"Time",	"4"],
+    
+    ["附近",	"fùjìn",	"nearby",	"Location",	"5"],
+    ["城市",	"chéngshì",	"city",	"Location",	"5"],
+    ["公园",	"gōngyuán",	"park",	"Location",	"5"],
+    ["地方",	"dìfāng",	"place",	"Location",	"5"],
+    ["图书馆",	"túshūguăn",	"library",	"Location",	"5"],
+    ["中间",	"zhōngjiān",	"between",	"Location",	"5"],
+    ["一样",	"yíyàng",	"same",	"Location",	"5"]
   ]
 }
