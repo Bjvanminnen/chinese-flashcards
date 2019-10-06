@@ -136,12 +136,12 @@
     ["妹",	"mèi",	"younger sister 妹妹",	"Family",	"1"],
     
     ["会",	"huì",	"meeting/can (一会儿 = in a bit)",	"Phrases",	"2"],
-    ["安",	"ān",	"peace/safety (早安 = good morning)",	"Phrases",	"2"],
-    ["晚",	"wǎn",	"evening (晚安 = good night)",	"Phrases",	"2"],
+    ["早安",	"zǎoān",	"good morning",	"Phrases",	"2"],
+    ["晚",	"wǎn",	"evening",	"Phrases",	"2"],
     ["最",	"zuì",	"most/superlative (最近 = recently)",	"Phrases",	"2"],
     ["错",	"cuò",	"bad/fault/wrong (不错 = not bad)",	"Phrases",	"2"],
     ["近",	"jìn",	"near (最近 = recently)",	"Phrases",	"2"],
-    ["久",	"jiǔ",	"long time",	"Phrases",	"2"],
+    ["好久不见",	"hǎojiǔbùjiàn",	"long time no see",	"Phrases",	"2"],
     ["最近",	"zuìjìn",	"recently",	"Phrases",	"2"],
     ["一会儿",	"yí huìr",	"in a bit",	"Phrases",	"2"],
     
@@ -439,7 +439,7 @@
     ["准",	"zhǔn",	"permitted",	"Transport"],
     ["出",	"chū",	"out/exit",	"Transport"],
     ["租",	"zū",	"rent",	"Transport"],
-    ["站",	"zhàn",	"station/stop",	"Transport"],
+    ["站",	"zhàn",	"station/stop/stand",	"Transport"],
     ["车",	"chē",	"vehicle/transport",	"Transport"],
     ["出租车",	"chūzūchē",	"taxi",	"Transport"],
     ["公",	"gōng",	"public",	"Transport"],
@@ -734,6 +734,16 @@
     ["地方",	"dìfāng",	"place",	"Location",	"5"],
     ["图书馆",	"túshūguăn",	"library",	"Location",	"5"],
     ["中间",	"zhōngjiān",	"between",	"Location",	"5"],
-    ["一样",	"yíyàng",	"same",	"Location",	"5"]
+    ["一样",	"yíyàng",	"same",	"Location",	"5"],
+    
+    ["花",	"huā",	"flower/spend",	"Shopping",	"4"],
+    ["角",	"jiǎo",	"one tenth of a yuan",	"Shopping",	"4"],
+    ["打折",	"dăzhé",	"to give a discount",	"Shopping",	"4"],
+    ["经",	"jīng",	"to pass/walk by",	"Shopping",	"4"],
+    ["换",	"huàn",	"to change",	"Shopping",	"4"],
+    ["皮",	"pí",	"leather",	"Shopping",	"4"],
+    ["旧",	"jiù",	"old",	"Shopping",	"4"],
+    ["退款",	"tuìkuǎn",	"give a refund",	"Shopping",	"4"],
+    ["退货",	"tuìhuò",	"return",	"Shopping",	"4"]
   ]
 }
