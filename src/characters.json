@@ -313,7 +313,7 @@
     ["视",	"shì",	"电视 = television",	"Entertain"],
     ["影",	"yǐng",	"电影 = movie",	"Entertain"],
     ["干",	"gàn",	"do",	"Entertain"],
-    ["想",	"xiǎng",	"think/would/would like",	"Entertain"],
+    ["想",	"xiǎng",	"think/would/would like/miss",	"Entertain"],
     ["报纸",	"bàozhǐ",	"newspaper",	"Entertain"],
     ["网",	"wǎng",	"上网 = online",	"Entertain"],
     ["闻",	"wén",	"to hear",	"Entertain"],
@@ -739,11 +739,23 @@
     ["花",	"huā",	"flower/spend",	"Shopping",	"4"],
     ["角",	"jiǎo",	"one tenth of a yuan",	"Shopping",	"4"],
     ["打折",	"dăzhé",	"to give a discount",	"Shopping",	"4"],
-    ["经",	"jīng",	"to pass/walk by",	"Shopping",	"4"],
+    ["经过",	"jīngguò",	"to pass/walk by",	"Shopping",	"4"],
     ["换",	"huàn",	"to change",	"Shopping",	"4"],
     ["皮",	"pí",	"leather",	"Shopping",	"4"],
     ["旧",	"jiù",	"old",	"Shopping",	"4"],
     ["退款",	"tuìkuǎn",	"give a refund",	"Shopping",	"4"],
-    ["退货",	"tuìhuò",	"return",	"Shopping",	"4"]
+    ["退货",	"tuìhuò",	"return",	"Shopping",	"4"],
+    
+    ["习惯",	"xíguàn",	"habit/habituated",	"Routine",	"2"],
+    ["刷牙",	"shuāyá",	"brushing teeth",	"Routine",	"2"],
+    ["马上",	"măshàng",	"at once",	"Routine",	"2"],
+    ["以后",	"yǐhòu",	"afterwards",	"Routine",	"2"],
+    ["洗澡 ",	"xĭzăo",	"shower/bath",	"Routine",	"2"],
+    ["总是",	"zŏngshì",	"always",	"Routine",	"2"],
+    ["一边",	"yībiān",	"at the same time",	"Routine",	"2"],
+    ["故事",	"gùshi",	"story",	"Routine",	"2"],
+    ["梦",	"mèng",	"dream",	"Routine",	"2"],
+    ["以前",	"yĭqián",	"before",	"Routine",	"2"],
+    ["讲",	"jiăng",	"to speak",	"Routine",	"2"]
   ]
 }
