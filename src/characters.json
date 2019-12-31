@@ -139,6 +139,7 @@
     
     ["会",	"huì",	"meeting/can (一会儿 = in a bit)",	"Phrases",	"2",	"common100"],
     ["早安",	"zǎoān",	"good morning",	"Phrases",	"2"],
+    ["安",	"ān",	"peace",	"Phrases",	"2"],
     ["晚",	"wǎn",	"evening",	"Phrases",	"2"],
     ["最",	"zuì",	"most/superlative (最近 = recently)",	"Phrases",	"2"],
     ["错",	"cuò",	"bad/fault/wrong (不错 = not bad)",	"Phrases",	"2"],
@@ -233,7 +234,6 @@
     ["下",	"xià",	"next/down/under (下午 = afternoon)",	"Time",	"2",	"common100"],
     ["午",	"wǔ",	"noon (下午 = afternoon)",	"Time",	"2"],
     ["分",	"fēn",	"minutes/",	"Time",	"2",	"common100"],
-    ["晚",	"wǎn",	"evening",	"Time",	"2"],
     ["下午",	"xiàwǔ",	"afternoon",	"Time",	"2"],
     ["上午",	"shàngwǔ",	"morning",	"Time",	"2"],
     ["末",	"mò",	"end",	"Time",	"2"],
@@ -761,9 +761,9 @@
     
     ["之",	"zhī",	"him/her/it",	"Common100",	"",	"common100"],
     ["地",	"de / dì",	"-ly / earth, ground, field, place, land",	"Common100",	"",	"common100"],
-    ["而",	"	ér",	"and, as well as, but (not), yet (not), (shows causal relation), (shows change of state), (shows contrast)",	"Common100",	"",	"common100"],
+    ["而",	"ér",	"and, as well as, but (not), yet (not), (shows causal relation), (shows change of state), (shows contrast)",	"Common100",	"",	"common100"],
     ["于",	"yú",	"at, in, in regard to",	"Common100",	"",	"common100"],
-    ["可",	"kě	",	"can, may, able to, certain(ly), (particle used for emphasis)",	"Common100",	"",	"common100"],
+    ["可",	"kě",	"can, may, able to, certain(ly), (particle used for emphasis)",	"Common100",	"",	"common100"],
     ["自",	"zì",	"from, self, oneself, since",	"Common100",	"",	"common100"],
     ["后",	"hòu",	"back, behind, rear, afterwards, after, later",	"Common100",	"",	"common100"],
     ["事",	"shì",	"matter, thing, item, work, affair",	"Common100",	"",	"common100"],
