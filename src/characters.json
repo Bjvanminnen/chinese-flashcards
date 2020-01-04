@@ -799,6 +799,17 @@
     ["盐",	"yán",	"salt",	"Food",	"3"],
     ["南方",	"nánfāng",	"southern",	"Food",	"3"],
     ["咸",	"xián",	"salty",	"Food",	"3"],
-    ["甜",	"tián",	"sweet",	"Food",	"3"]
+    ["甜",	"tián",	"sweet",	"Food",	"3"],
+    
+    ["年级",	"niánjí",	"grade",	"People",	"3"],
+    ["初中",	"chūzhōng",	"middle school",	"People",	"3"],
+    ["长大",	"zhǎngdà",	"grow up",	"People",	"3"],
+    ["个子",	"gèzi",	"height",	"People",	"3"],
+    ["小学",	"xiăoxué",	"elementary school",	"People",	"3"],
+    ["年轻",	"niánqīng",	"young",	"People",	"3"],
+    ["比较",	"bĭjiào",	"compared to",	"People",	"3"],
+    ["戴",	"dài",	"wear (accessories)",	"People",	"3"],
+    ["眼镜",	"yănjìng",	"glasses",	"People",	"3"],
+    ["老",	"lăo",	"old",	"People",	"3"]
   ]
 }
