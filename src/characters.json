@@ -522,7 +522,7 @@
     ["运",	"yùn",	"transport",	"Sports",	"2"],
     ["动",	"dòng",	"to move",	"Sports",	"2"],
     ["马",	"mǎ",	"horse",	"Sports",	"2"],
-    ["运动",	"yùndòng",	"sport",	"Sports",	"2"],
+    ["运动",	"yùndòng",	"sport/exercise",	"Sports",	"2"],
     
     ["吧",	"ba",	"lets. word used when asking",	"Invite",	"1"],
     ["时间",	"shíjiān",	"time",	"Invite",	"1"],
@@ -810,6 +810,14 @@
     ["比较",	"bĭjiào",	"compared to",	"People",	"3"],
     ["戴",	"dài",	"wear (accessories)",	"People",	"3"],
     ["眼镜",	"yănjìng",	"glasses",	"People",	"3"],
-    ["老",	"lăo",	"old",	"People",	"3"]
+    ["老",	"lăo",	"old",	"People",	"3"],
+    
+    ["先",	"xiān",	"first",	"Location",	"6"],
+    ["然后",	"ránhòu",	"then",	"Location",	"6"],
+    ["最后",	"zuìhòu",	"lastly",	"Location",	"6"],
+    ["一直",	"yìzhí",	"straight/all the time",	"Location",	"6"],
+    ["周围",	"zhōuwéi",	"around, surroundings",	"Location",	"6"],
+    ["地址",	"dìzhĭ",	"address",	"Location",	"6"],
+    ["迷路",	"mílù",	"to become lost",	"Location",	"6"]
   ]
 }
