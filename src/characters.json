@@ -818,6 +818,12 @@
     ["一直",	"yìzhí",	"straight/all the time",	"Location",	"6"],
     ["周围",	"zhōuwéi",	"around, surroundings",	"Location",	"6"],
     ["地址",	"dìzhĭ",	"address",	"Location",	"6"],
-    ["迷路",	"mílù",	"to become lost",	"Location",	"6"]
+    ["迷路",	"mílù",	"to become lost",	"Location",	"6"],
+    
+    ["一般",	"yìbān",	"usually",	"Routine",	"3"],
+    ["聊天",	"liáotiān",	"chat",	"Routine",	"3"],
+    ["见面",	"jiànmiàn",	"to meet each other",	"Routine",	"3"],
+    ["自己",	"zìjǐ",	"oneself",	"Routine",	"3"],
+    ["一个人",	" yīgèrén",	"alone",	"Routine",	"3"]
   ]
 }
