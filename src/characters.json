@@ -824,6 +824,18 @@
     ["聊天",	"liáotiān",	"chat",	"Routine",	"3"],
     ["见面",	"jiànmiàn",	"to meet each other",	"Routine",	"3"],
     ["自己",	"zìjǐ",	"oneself",	"Routine",	"3"],
-    ["一个人",	" yīgèrén",	"alone",	"Routine",	"3"]
+    ["一个人",	" yīgèrén",	"alone",	"Routine",	"3"],
+    
+    ["签证",	"qiānzhèng",	"visa",	"Travel",	"2"],
+    ["护照",	"hùzhào",	"passport",	"Travel",	"2"],
+    ["起飞",	"qĭfēi",	"take-off",	"Travel",	"2"],
+    ["发现",	"fāxiàn",	"realize",	"Travel",	"2"],
+    ["离开",	"líkāi",	"to leave",	"Travel",	"2"],
+    ["检查",	"jiǎnchá",	"to check",	"Travel",	"2"],
+    ["行李",	"xínglĭ",	"luggage",	"Travel",	"2"],
+    ["安全",	"ānquán",	"safe/secure",	"Travel",	"2"],
+    ["忘记",	"wàngjì",	"to forget",	"Travel",	"2"],
+    ["几乎",	"jīhū",	"almost",	"Travel",	"2"],
+    ["海关",	"hǎiguān",	"customs",	"Travel",	"2"]
   ]
 }
