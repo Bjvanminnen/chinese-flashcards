@@ -836,6 +836,14 @@
     ["安全",	"ānquán",	"safe/secure",	"Travel",	"2"],
     ["忘记",	"wàngjì",	"to forget",	"Travel",	"2"],
     ["几乎",	"jīhū",	"almost",	"Travel",	"2"],
-    ["海关",	"hǎiguān",	"customs",	"Travel",	"2"]
+    ["海关",	"hǎiguān",	"customs",	"Travel",	"2"],
+    
+    ["容易",	"róngyì",	"easy",	"Lang",	"2"],
+    ["语言",	"yŭyán",	"language",	"Lang",	"2"],
+    ["更",	"gèng",	"more",	"Lang",	"2"],
+    ["努力",	"nǔlì",	"work hard, effort",	"Lang",	"2"],
+    ["水平",	"shuĭpíng",	"skill level",	"Lang",	"2"],
+    ["提高",	"tígāo",	"to raise",	"Lang",	"2"],
+    ["后来",	"hòulái",	"later",	"Lang",	"2"]
   ]
 }
