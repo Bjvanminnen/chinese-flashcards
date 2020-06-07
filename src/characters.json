@@ -844,6 +844,18 @@
     ["努力",	"nǔlì",	"work hard, effort",	"Lang",	"2"],
     ["水平",	"shuĭpíng",	"skill level",	"Lang",	"2"],
     ["提高",	"tígāo",	"to raise",	"Lang",	"2"],
-    ["后来",	"hòulái",	"later",	"Lang",	"2"]
+    ["后来",	"hòulái",	"later",	"Lang",	"2"],
+    
+    ["奇怪",	"qíguài",	"strange",	"Feelings"],
+    ["紧张",	"jĭnzhāng",	"nervous",	"Feelings"],
+    ["生气",	"shēngqì",	"angry",	"Feelings"],
+    ["哭",	"kū",	"crying",	"Feelings"],
+    ["难过",	"nánguò",	"sad/upset",	"Feelings"],
+    ["可怕",	"kěpà",	"scary",	"Feelings"],
+    ["遇到",	"yùdào",	"encounter",	"Feelings"],
+    ["热情",	"rèqíng",	"affectionate",	"Feelings"],
+    ["看起来",	"kànqǐlái",	"looks",	"Feelings"],
+    ["经常",	"jīngcháng",	"often",	"Feelings"],
+    ["关心",	"guānxīn",	"care about",	"Feelings"]
   ]
 }
