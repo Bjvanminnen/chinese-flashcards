@@ -856,6 +856,23 @@
     ["热情",	"rèqíng",	"affectionate",	"Feelings"],
     ["看起来",	"kànqǐlái",	"looks",	"Feelings"],
     ["经常",	"jīngcháng",	"often",	"Feelings"],
-    ["关心",	"guānxīn",	"care about",	"Feelings"]
+    ["关心",	"guānxīn",	"care about",	"Feelings"],
+    
+    ["教",	"jiāo",	"to teach",	"School",	"2"],
+    ["求",	"qiú",	"to seek/demand",	"School",	"2"],
+    ["食堂",	"shítáng",	"cafeteria",	"School",	"2"],
+    ["班",	"bān",	"class/shift",	"School",	"2"],
+    ["校长",	"xiàozhăng",	"principal",	"School",	"2"],
+    ["作业",	"zuòyè",	"homework",	"School",	"2"],
+    ["必须",	"bìxū",	"must/need",	"School",	"2"],
+    ["完成",	"wánchéng",	"to complete",	"School",	"2"],
+    ["高中",	"ɡāo zhōnɡ",	"high school",	"School",	"2"],
+    ["铅笔",	"qiānbĭ",	"pencil",	"School",	"2"],
+    ["向",	"xiàng",	"turns lend into borrow",	"School",	"2"],
+    ["借",	"jiè",	"to lend (borrow with 向）",	"School",	"2"],
+    ["纸",	"zhĭ",	"paper",	"School",	"2"],
+    ["笔记",	"bĭjì",	"notes",	"School",	"2"],
+    ["黑板",	"hēibǎn",	"blackboard",	"School",	"2"],
+    ["清楚",	"qīngchǔ",	"clear/obvious",	"School",	"2"]
   ]
 }
