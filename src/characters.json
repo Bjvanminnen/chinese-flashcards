@@ -887,7 +887,24 @@
     ["认真",	"rènzhēn",	"serious",	"Future"],
     ["当然",	"dāngrán",	"of course",	"Future"],
     ["害怕",	"hàipà",	"to fear",	"Future"],
-    ["放心",	" fàngxīn",	"to relax",	"Future"],
-    ["分手",	"fēnshŏu",	"to break up",	"Future"]
+    ["放心",	"fàngxīn",	"to relax",	"Future"],
+    ["分手",	"fēnshŏu",	"to break up",	"Future"],
+    
+    ["环境",	"huánjìng",	"environment",	"Environ"],
+    ["层",	"céng",	"floor (count)",	"Environ"],
+    ["方便",	"fāngbiàn",	"convenient",	"Environ"],
+    ["草",	"cǎo",	"grass",	"Environ"],
+    ["太阳",	"tàiyáng",	"sun",	"Environ"],
+    ["星星",	"xīngxīng",	"star",	"Environ"],
+    ["天上",	"tiānshàng",	"heavens",	"Environ"],
+    ["楼",	"lóu",	"floor (noun)",	"Environ"],
+    ["安静",	"ānjìng",	"quiet",	"Environ"],
+    ["影响",	"yĭngxiăng",	"disturb",	"Environ"],
+    ["邻居",	"línjū",	"neighbor",	"Environ"],
+    ["声音",	"shēngyīn",	"voice/noise",	"Environ"],
+    ["垃圾",	"lājī",	"trash",	"Environ"],
+    ["丢",	"diū",	"throw away",	"Environ"],
+    ["脏",	"zāng",	"dirty",	"Environ"],
+    ["桶",	"tǒng",	"bucket",	"Environ"]
   ]
 }
