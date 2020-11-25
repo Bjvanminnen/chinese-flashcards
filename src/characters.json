@@ -894,7 +894,7 @@
     ["层",	"céng",	"floor (count)",	"Environ"],
     ["方便",	"fāngbiàn",	"convenient",	"Environ"],
     ["草",	"cǎo",	"grass",	"Environ"],
-    ["太阳",	"tàiyáng",	"sun",	"Environ"],
+    ["阳",	"yáng",	"sun",	"Environ"],
     ["星星",	"xīngxīng",	"star",	"Environ"],
     ["天上",	"tiānshàng",	"heavens",	"Environ"],
     ["楼",	"lóu",	"floor (noun)",	"Environ"],
@@ -905,6 +905,17 @@
     ["垃圾",	"lājī",	"trash",	"Environ"],
     ["丢",	"diū",	"throw away",	"Environ"],
     ["脏",	"zāng",	"dirty",	"Environ"],
-    ["桶",	"tǒng",	"bucket",	"Environ"]
+    ["桶",	"tǒng",	"bucket",	"Environ"],
+    
+    ["小姐",	"xiăojiĕ",	"Miss",	"Work",	"1"],
+    ["经理",	"jīnglĭ",	"manager",	"Work",	"1"],
+    ["同事",	"tóngshì",	"colleague",	"Work",	"1"],
+    ["先生",	"xiānsheng",	"Mr.",	"Work",	"1"],
+    ["会议",	"huìyì",	"conference/meeting",	"Work",	"1"],
+    ["突然",	"tūrán",	"suddenly",	"Work",	"1"],
+    ["重要",	"zhòngyào",	"important",	"Work",	"1"],
+    ["解决",	"jiějué",	"to solve",	"Work",	"1"],
+    ["办法",	"bànfă",	"solutions/methods",	"Work",	"1"],
+    ["相信",	"xiāngxìn",	"to believe",	"Work",	"1"]
   ]
 }
