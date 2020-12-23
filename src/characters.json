@@ -916,6 +916,17 @@
     ["重要",	"zhòngyào",	"important",	"Work",	"1"],
     ["解决",	"jiějué",	"to solve",	"Work",	"1"],
     ["办法",	"bànfă",	"solutions/methods",	"Work",	"1"],
-    ["相信",	"xiāngxìn",	"to believe",	"Work",	"1"]
+    ["相信",	"xiāngxìn",	"to believe",	"Work",	"1"],
+    
+    ["世界",	"shìjiè",	"world",	"Culture"],
+    ["长江",	"Chángjiāng",	"Yangtze (long river)",	"Culture"],
+    ["河",	"hé",	"river",	"Culture"],
+    ["动物",	"dòngwù",	"animals",	"Culture"],
+    ["有名",	"yŏumíng",	"famous",	"Culture"],
+    ["啊",	"a",	"interjection",	"Culture"],
+    ["熊",	"xióng",	"bear",	"Culture"],
+    ["故宫",	"gùgōng",	"Forbidden City",	"Culture"],
+    ["熊猫",	"xióngmāo",	"panda",	"Culture"],
+    ["长城",	"Chángchéng",	"Great Wall",	"Culture"]
   ]
 }
