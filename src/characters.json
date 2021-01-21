@@ -927,6 +927,19 @@
     ["熊",	"xióng",	"bear",	"Culture"],
     ["故宫",	"gùgōng",	"Forbidden City",	"Culture"],
     ["熊猫",	"xióngmāo",	"panda",	"Culture"],
-    ["长城",	"Chángchéng",	"Great Wall",	"Culture"]
+    ["长城",	"Chángchéng",	"Great Wall",	"Culture"],
+    
+    ["或者",	"huòzhě",	"or, perhaps",	"Hobbies",	"3"],
+    ["爬山",	"páshān",	"hiking",	"Hobbies",	"3"],
+    ["功夫",	"gōngfu",	"kungfu",	"Hobbies",	"3"],
+    ["自行车",	"zìxíngchē",	"bicycle",	"Hobbies",	"3"],
+    ["兴趣",	"xìngqù",	"interest",	"Hobbies",	"3"],
+    ["历史",	"lìshǐ",	"history",	"Hobbies",	"3"],
+    ["文化",	"wénhuà",	"culture",	"Hobbies",	"3"],
+    ["感",	"găn",	"to feel",	"Hobbies",	"3"],
+    ["麻将",	"májiàng",	"mahjong",	"Hobbies",	"3"],
+    ["了解",	"liǎojiě",	"to understand",	"Hobbies",	"3"],
+    ["特别",	"tèbié",	"special",	"Hobbies",	"3"],
+    ["为了",	"wèile",	"in order to",	"Hobbies",	"3"]
   ]
 }
