@@ -940,6 +940,16 @@
     ["麻将",	"májiàng",	"mahjong",	"Hobbies",	"3"],
     ["了解",	"liǎojiě",	"to understand",	"Hobbies",	"3"],
     ["特别",	"tèbié",	"special",	"Hobbies",	"3"],
-    ["为了",	"wèile",	"in order to",	"Hobbies",	"3"]
+    ["为了",	"wèile",	"in order to",	"Hobbies",	"3"],
+    
+    ["闷",	"mèn",	"bored",	"Health",	"3"],
+    ["照顾",	"zhàogù",	"to look after",	"Health",	"3"],
+    ["腿",	"tuǐ",	"leg",	"Health",	"3"],
+    ["死",	"sǐ",	"to die",	"Health",	"3"],
+    ["着急",	"zháojí",	"anxious",	"Health",	"3"],
+    ["瘦",	"shòu",	"thin",	"Health",	"3"],
+    ["公斤",	"gōngjīn",	"kilograms",	"Health",	"3"],
+    ["抽烟",	"chōuyān",	"smoke",	"Health",	"3"],
+    ["咳嗽",	"késòu",	"cough",	"Health",	"3"]
   ]
 }
