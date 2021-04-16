@@ -950,6 +950,18 @@
     ["瘦",	"shòu",	"thin",	"Health",	"3"],
     ["公斤",	"gōngjīn",	"kilograms",	"Health",	"3"],
     ["抽烟",	"chōuyān",	"smoke",	"Health",	"3"],
-    ["咳嗽",	"késòu",	"cough",	"Health",	"3"]
+    ["咳嗽",	"késòu",	"cough",	"Health",	"3"],
+    
+    ["转机",	"zhuǎnjī",	"transfer",	"Travel",	"3"],
+    ["国际",	"guójì",	"international",	"Travel",	"3"],
+    ["柜台",	"guìtái",	"counter",	"Travel",	"3"],
+    ["银行",	"yínháng",	"bank",	"Travel",	"3"],
+    ["国内",	"guónèi",	"domestic",	"Travel",	"3"],
+    ["充电",	"chōngdiàn",	"to charge",	"Travel",	"3"],
+    ["充值",	"chōngzhí",	"topup/recharge",	"Travel",	"3"],
+    ["漫游",	"mànyóu",	"roaming",	"Travel",	"3"],
+    ["导游",	"dǎoyóu",	"tour guide",	"Travel",	"3"],
+    ["取消",	"qǔxiāo",	"cancel",	"Travel",	"3"],
+    ["退房",	"tuìfáng",	"check out",	"Travel",	"3"]
   ]
 }
