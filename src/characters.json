@@ -962,6 +962,16 @@
     ["漫游",	"mànyóu",	"roaming",	"Travel",	"3"],
     ["导游",	"dǎoyóu",	"tour guide",	"Travel",	"3"],
     ["取消",	"qǔxiāo",	"cancel",	"Travel",	"3"],
-    ["退房",	"tuìfáng",	"check out",	"Travel",	"3"]
+    ["退房",	"tuìfáng",	"check out",	"Travel",	"3"],
+    
+    ["简单",	"jiǎndān",	"simple/easy",	"Lang",	"3"],
+    ["回答",	"huídá",	"to answer",	"Lang",	"3"],
+    ["句子",	"jùzi",	"sentence",	"Lang",	"3"],
+    ["流利",	"liúlì",	"fluent",	"Lang",	"3"],
+    ["词典",	"cídiǎn",	"dictionary",	"Lang",	"3"],
+    ["应用",	"yìngyòng",	"app",	"Lang",	"3"],
+    ["语法",	"yŭfă",	"grammar",	"Lang",	"3"],
+    ["翻译",	"fānyì",	"translation",	"Lang",	"3"],
+    ["下载",	"xiàzǎi",	"download",	"Lang",	"3"]
   ]
 }
