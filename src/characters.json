@@ -972,6 +972,21 @@
     ["应用",	"yìngyòng",	"app",	"Lang",	"3"],
     ["语法",	"yŭfă",	"grammar",	"Lang",	"3"],
     ["翻译",	"fānyì",	"translation",	"Lang",	"3"],
-    ["下载",	"xiàzǎi",	"download",	"Lang",	"3"]
+    ["下载",	"xiàzǎi",	"download",	"Lang",	"3"],
+    
+    ["空调",	"kōngtiáo",	"air conditioner",	"House",	"1"],
+    ["把",	"bǎ",	"change subject/verb/object order",	"House",	"1"],
+    ["灯",	"dēng",	"light",	"House",	"1"],
+    ["客厅",	"kètīng",	"living room",	"House",	"1"],
+    ["厨房",	"chúfáng",	"kitchen",	"House",	"1"],
+    ["画",	"huà",	"painting",	"House",	"1"],
+    ["放",	"fàng",	"to put",	"House",	"1"],
+    ["干净",	"gānjìng",	"neat/clean",	"House",	"1"],
+    ["打扫",	"dăsăo",	"cleanup",	"House",	"1"],
+    ["客人",	"kèren",	"guest",	"House",	"1"],
+    ["厕所",	"cèsuŏ",	"toilet",	"House",	"1"],
+    ["电梯",	"diàntī",	"elevator",	"House",	"1"],
+    ["坏",	"huài",	"broken",	"House",	"1"],
+    ["被",	"bèi",	"by",	"House",	"1"]
   ]
 }
