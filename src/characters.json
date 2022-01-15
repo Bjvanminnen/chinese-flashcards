@@ -119,7 +119,7 @@
     
     ["谢",	"xiè",	"to thank",	"Phrases",	"1"],
     ["不客气",	"bùkèqì",	"you're welcome",	"Phrases",	"1"],
-    ["没关系",	"méiguānqǐ",	"no worries",	"Phrases",	"1"],
+    ["没关系",	"méiguānxì",	"no worries",	"Phrases",	"1"],
     ["对不起",	"duìbùqǐ",	"sorry",	"Phrases",	"1"],
     
     ["妈",	"mā",	"mother 妈妈",	"Family",	"1"],
@@ -844,6 +844,7 @@
     ["努力",	"nǔlì",	"work hard, effort",	"Lang",	"2"],
     ["水平",	"shuĭpíng",	"skill level",	"Lang",	"2"],
     ["提高",	"tígāo",	"to raise",	"Lang",	"2"],
+    ["种",	"zhŏng",	"species/kind",	"Lang",	"2"],
     ["后来",	"hòulái",	"later",	"Lang",	"2"],
     
     ["奇怪",	"qíguài",	"strange",	"Feelings"],
@@ -986,7 +987,21 @@
     ["客人",	"kèren",	"guest",	"House",	"1"],
     ["厕所",	"cèsuŏ",	"toilet",	"House",	"1"],
     ["电梯",	"diàntī",	"elevator",	"House",	"1"],
-    ["坏",	"huài",	"broken",	"House",	"1"],
-    ["被",	"bèi",	"by",	"House",	"1"]
+    ["坏",	"huài",	"to break",	"House",	"1"],
+    ["被",	"bèi",	"by",	"House",	"1"],
+    
+    ["寒假",	"hánjià",	"winter (cold) vacation",	"Exam",	"1"],
+    ["复习",	"fùxí",	"to review",	"Exam",	"1"],
+    ["暑假",	"shǔjià",	"summer vacation",	"Exam",	"1"],
+    ["数学",	"shùxué",	"math",	"Exam",	"1"],
+    ["房价",	"fàngjià",	"vacation",	"Exam",	"1"],
+    ["记得",	"jìde",	"to remember",	"Exam",	"1"],
+    ["结束",	"jiéshù",	"to end",	"Exam",	"1"],
+    ["终于",	"zhōngyú",	"finally",	"Exam",	"1"],
+    ["大学",	"dàxué",	"university",	"Exam",	"1"],
+    ["专业",	"zhuānyè",	"specialty/major",	"Exam",	"1"],
+    ["担心",	"dānxīn",	"to worry",	"Exam",	"1"],
+    ["成绩",	"chéngjī",	"grade/result",	"Exam",	"1"],
+    ["绩",	"jì",	"achievement",	"Exam",	"1"]
   ]
 }
