@@ -902,7 +902,7 @@
     ["安静",	"ānjìng",	"quiet",	"Environ"],
     ["影响",	"yĭngxiăng",	"disturb",	"Environ"],
     ["邻居",	"línjū",	"neighbor",	"Environ"],
-    ["声音",	"shēngyīn",	"voice/noise",	"Environ"],
+    ["声音",	"shēngyīn",	"volume/noise",	"Environ"],
     ["垃圾",	"lājī",	"trash",	"Environ"],
     ["丢",	"diū",	"throw away",	"Environ"],
     ["脏",	"zāng",	"dirty",	"Environ"],
@@ -1002,6 +1002,26 @@
     ["专业",	"zhuānyè",	"specialty/major",	"Exam",	"1"],
     ["担心",	"dānxīn",	"to worry",	"Exam",	"1"],
     ["成绩",	"chéngjī",	"grade/result",	"Exam",	"1"],
-    ["绩",	"jì",	"achievement",	"Exam",	"1"]
+    ["绩",	"jì",	"achievement",	"Exam",	"1"],
+    
+    ["风景",	"fēngjĭng",	"scenery",	"Travel",	"4"],
+    ["街道",	"jiēdào",	"street",	"Travel",	"4"],
+    ["地图",	"dìtú",	"map",	"Travel",	"4"],
+    ["拿",	"ná",	"take,hold,carry,get",	"Travel",	"4"],
+    ["红绿灯",	"hónglǜdēng",	"traffic light",	"Travel",	"4"],
+    ["出来",	"chūlái",	"out loud",	"Travel",	"4"],
+    ["免费",	"miănfèi",	"free",	"Travel",	"4"],
+    ["接",	"jiē",	"to pickup",	"Travel",	"4"],
+    ["观光",	"guānguāng",	"sightseeing",	"Travel",	"4"],
+    ["司机",	"sījī",	"driver",	"Travel",	"4"],
+    ["时差",	"shíchā",	"jet lag",	"Travel",	"4"],
+    ["博物馆",	"bówùguǎn",	"museum",	"Travel",	"4"],
+    ["小心",	"xiăoxīn",	"careful",	"Travel",	"4"],
+    ["参观",	"cānguān",	"visit",	"Travel",	"4"],
+    ["马路",	"mălù",	"road",	"Travel",	"4"],
+    ["过",	"guò",	"to cross",	"Travel",	"4"],
+    ["活动",	"huó",	"huódòng",	"Travel",	"4"],
+    ["表演",	"biăoyăn",	"performance",	"Travel",	"4"],
+    ["安排",	"ānpái",	"plan/arrange",	"Travel",	"4"]
   ]
 }
