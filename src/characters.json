@@ -1003,6 +1003,7 @@
     ["担心",	"dānxīn",	"to worry",	"Exam",	"1"],
     ["成绩",	"chéngjī",	"grade/result",	"Exam",	"1"],
     ["绩",	"jì",	"achievement",	"Exam",	"1"],
+    ["放松",	"fàngsōng",	"relax",	"Exam",	"1"],
     
     ["风景",	"fēngjĭng",	"scenery",	"Travel",	"4"],
     ["街道",	"jiēdào",	"street",	"Travel",	"4"],
@@ -1022,6 +1023,22 @@
     ["过",	"guò",	"to cross",	"Travel",	"4"],
     ["活动",	"huódòng",	"activity",	"Travel",	"4"],
     ["表演",	"biăoyăn",	"performance",	"Travel",	"4"],
-    ["安排",	"ānpái",	"plan/arrange",	"Travel",	"4"]
+    ["安排",	"ānpái",	"plan/arrange",	"Travel",	"4"],
+    
+    ["电子邮件",	"diànzĭyóujiàn",	"e-mail",	"Communication",	"2"],
+    ["邮件",	"yóujiàn",	"mail",	"Communication",	"2"],
+    ["刚才",	"gāngcái",	"just now",	"Communication",	"2"],
+    ["发",	"fā",	"send out",	"Communication",	"2"],
+    ["主要",	"zhŭyào",	"mainly",	"Communication",	"2"],
+    ["短信",	"duănxìn",	"text message",	"Communication",	"2"],
+    ["关于",	"guānyú",	"about",	"Communication",	"2"],
+    ["登录",	"dēnglù",	"login",	"Communication",	"2"],
+    ["密码",	"mìmǎ",	"password",	"Communication",	"2"],
+    ["信号",	"xìnhào",	"signal",	"Communication",	"2"],
+    
+    ["其实",	"qíshí",	"actually"],
+    ["谈",	"tán",	"to discuss"],
+    ["段",	"duàn",	"classifier for time"],
+    ["过去",	"guòqù",	"past"]
   ]
 }
