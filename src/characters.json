@@ -1035,10 +1035,9 @@
     ["登录",	"dēnglù",	"login",	"Communication",	"2"],
     ["密码",	"mìmǎ",	"password",	"Communication",	"2"],
     ["信号",	"xìnhào",	"signal",	"Communication",	"2"],
-    
-    ["其实",	"qíshí",	"actually"],
-    ["谈",	"tán",	"to discuss"],
-    ["段",	"duàn",	"classifier for time"],
-    ["过去",	"guòqù",	"past"]
+    ["其实",	"qíshí",	"actually",	"Communication",	"2"],
+    ["谈",	"tán",	"to discuss",	"Communication",	"2"],
+    ["段",	"duàn",	"classifier for time",	"Communication",	"2"],
+    ["过去",	"guòqù",	"past",	"Communication",	"2"]
   ]
 }
