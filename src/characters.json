@@ -1038,6 +1038,19 @@
     ["其实",	"qíshí",	"actually",	"Communication",	"2"],
     ["谈",	"tán",	"to discuss",	"Communication",	"2"],
     ["段",	"duàn",	"classifier for time",	"Communication",	"2"],
-    ["过去",	"guòqù",	"past",	"Communication",	"2"]
+    ["过去",	"guòqù",	"past",	"Communication",	"2"],
+    
+    ["决定",	"juédìng",	"decision",	"Work",	"2"],
+    ["升职",	"shēngzhí",	"get promoted",	"Work",	"2"],
+    ["根据",	"gēnjù",	"based on",	"Work",	"2"],
+    ["同意",	"tóngyì",	"agree",	"Work",	"2"],
+    ["出差",	"chūchāi",	"business trip",	"Work",	"2"],
+    ["满意",	"mănyì",	"satisfied",	"Work",	"2"],
+    ["认为",	"rènwéi",	"to think",	"Work",	"2"],
+    ["表现",	"biăoxiàn",	"performance",	"Work",	"2"],
+    ["老板",	"lăobăn",	"boss",	"Work",	"2"],
+    ["麻烦",	"máfan",	"annoying",	"Work",	"2"],
+    ["面试",	"miànshì",	"interview",	"Work",	"2"],
+    ["开会",	"kāihuì",	"hold/attend a meeting",	"Work",	"2"]
   ]
 }
