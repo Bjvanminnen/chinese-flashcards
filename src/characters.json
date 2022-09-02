@@ -948,7 +948,7 @@
     ["腿",	"tuǐ",	"leg",	"Health",	"3"],
     ["死",	"sǐ",	"to die",	"Health",	"3"],
     ["着急",	"zháojí",	"anxious",	"Health",	"3"],
-    ["瘦",	"shòu",	"thin",	"Health",	"3"],
+    ["瘦",	"shòu",	"thin/lose weight",	"Health",	"3"],
     ["公斤",	"gōngjīn",	"kilograms",	"Health",	"3"],
     ["抽烟",	"chōuyān",	"smoke",	"Health",	"3"],
     ["咳嗽",	"késòu",	"cough",	"Health",	"3"],
@@ -1044,13 +1044,25 @@
     ["升职",	"shēngzhí",	"get promoted",	"Work",	"2"],
     ["根据",	"gēnjù",	"based on",	"Work",	"2"],
     ["同意",	"tóngyì",	"agree",	"Work",	"2"],
-    ["出差",	"chūchāi",	"business trip",	"Work",	"2"],
+    ["出差",	"chūchāi",	"to be on a business trip (v)",	"Work",	"2"],
     ["满意",	"mănyì",	"satisfied",	"Work",	"2"],
     ["认为",	"rènwéi",	"to think",	"Work",	"2"],
     ["表现",	"biăoxiàn",	"performance",	"Work",	"2"],
     ["老板",	"lăobăn",	"boss",	"Work",	"2"],
     ["麻烦",	"máfan",	"annoying",	"Work",	"2"],
     ["面试",	"miànshì",	"interview",	"Work",	"2"],
-    ["开会",	"kāihuì",	"hold/attend a meeting",	"Work",	"2"]
+    ["开会",	"kāihuì",	"hold/attend a meeting",	"Work",	"2"],
+    
+    ["圆",	"yuán",	"round",	"Festivals",	"1"],
+    ["月饼",	"yuèbǐng",	"mooncake",	"Festivals",	"1"],
+    ["月亮",	"yuèliang",	"moon",	"Festivals",	"1"],
+    ["发财",	"fācái",	"make a fortune",	"Festivals",	"1"],
+    ["恭喜",	"gōngxĭ",	"congrats",	"Festivals",	"1"],
+    ["聚会",	"jùhuì",	"party/reunion",	"Festivals",	"1"],
+    ["汤圆",	"tāngyuán",	"glutinous rice balls",	"Festivals",	"1"],
+    ["端午节",	"duānwǔjié",	"dragon boat festival",	"Festivals",	"1"],
+    ["划",	"huá",	"row",	"Festivals",	"1"],
+    ["龙舟",	"lóngzhōu",	"dragon boat",	"Festivals",	"1"],
+    ["粽子",	"zòngzi",	"sticky rice dumpling",	"Festivals",	"1"]
   ]
 }
