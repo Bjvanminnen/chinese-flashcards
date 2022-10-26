@@ -1063,6 +1063,15 @@
     ["端午节",	"duānwǔjié",	"dragon boat festival",	"Festivals",	"1"],
     ["划",	"huá",	"row",	"Festivals",	"1"],
     ["龙舟",	"lóngzhōu",	"dragon boat",	"Festivals",	"1"],
-    ["粽子",	"zòngzi",	"sticky rice dumpling",	"Festivals",	"1"]
+    ["粽子",	"zòngzi",	"sticky rice dumpling",	"Festivals",	"1"],
+    
+    ["酸辣汤",	"suānlàtāng",	"hot and sour soup",	"Gourmet",	"2"],
+    ["珍珠",	"zhēnzhū",	"pearl (aka bubble in bubble tea)",	"Gourmet",	"2"],
+    ["烤鸭",	"kǎoyā",	"duck",	"Gourmet",	"2"],
+    ["春卷",	"chūnjuǎn",	"spring roll",	"Gourmet",	"2"],
+    ["豆花",	"dòuhuā",	"tofu pudding",	"Gourmet",	"2"],
+    ["宫保鸡丁",	"gōngbăo jīdīng",	"kung pao chicken (chicken with peanuts)",	"Gourmet",	"2"],
+    ["馒头",	"mántou",	"steamed bun/bread",	"Gourmet",	"2"],
+    ["卤肉",	"lǔròu",	"braised pork",	"Gourmet",	"2"]
   ]
 }
