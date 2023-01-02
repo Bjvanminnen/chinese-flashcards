@@ -1075,7 +1075,7 @@
     ["卤肉",	"lǔròu",	"braised pork",	"Gourmet",	"2"],
     
     ["土豪",	"tŭháo",	"local tycoon",	"Internet Slang",	"1"],
-    ["宅",	"zhái",	"nerd",	"Internet Slang",	"1"],
+    ["宅男",	"zháinán",	"otaku (nerd)",	"Internet Slang",	"1"],
     ["吃货",	"chīhuò",	"foodies",	"Internet Slang",	"1"],
     ["萌",	"méng",	"cute",	"Internet Slang",	"1"],
     ["自拍",	"zìpāi",	"selfie",	"Internet Slang",	"1"],
@@ -1095,6 +1095,24 @@
     ["粉丝",	"fěnsī",	"fans",	"Internet Slang",	"1"],
     ["评论",	"pínglùn",	"comments",	"Internet Slang",	"1"],
     ["分享",	"fēnxiǎng",	"share",	"Internet Slang",	"1"],
+    ["更多",	"gèng duō",	"more",	"Internet Slang",	"1"],
+    
+    ["尽快",	"jǐnkuài",	"ASAP",	"Business",	"1"],
+    ["收据",	"shōujù",	"receipt",	"Business",	"1"],
+    ["报销",	"bàoxiāo",	"to reimburse",	"Business",	"1"],
+    ["费用",	"fèiyòng",	"costs (n)",	"Business",	"1"],
+    ["协议",	"xiéyì",	"contract/agreement",	"Business",	"1"],
+    ["恢复",	"huífù",	"respond",	"Business",	"1"],
+    ["报告",	"bàogào",	"report (n)",	"Business",	"1"],
+    ["项目",	"xiàngmù",	"project",	"Business",	"1"],
+    ["合同",	"hétóng",	"contract",	"Business",	"1"],
+    ["回报",	"huìbào",	"return",	"Business",	"1"],
+    ["签名",	"qiānmíng",	"sign/signature",	"Business",	"1"],
+    ["广告",	"guănggào",	"advertisment",	"Business",	"1"],
+    ["工资",	"gōngzī",	"salary",	"Business",	"1"],
+    ["低",	"dī",	"low",	"Business",	"1"],
+    ["预算",	"yùsuàn",	"budget",	"Business",	"1"],
+    ["资本",	"zīběn",	"capital",	"Business",	"1"],
     
     [],
     [],
@@ -1104,8 +1122,8 @@
     [],
     [],
     [],
+    [],
     
-    ["广告",	"guănggào",	"advertisement",	"Unit",	"57"],
     ["咨",	"zī",	"to consult",	"Unit",	"57"],
     ["联",	"lián",	"to join",	"Unit",	"57"],
     ["权",	"quán",	"power",	"Unit",	"57"],
@@ -1132,8 +1150,6 @@
     ["醒",	"xĭng",	"to awake",	"Unit",	"57"],
     ["放弃",	"fàngqì",	"to give up",	"Unit",	"57"],
     ["鼓励",	"gŭlì",	"to encourage",	"Unit",	"57"],
-    ["收据",	"shōujù",	"receipt",	"Unit",	"57"],
-    ["广告",	"guănggào",	"advertisment",	"Unit",	"57"],
-    ["项目",	"xiàngmù",	"project",	"Unit",	"57"]
+    ["",	"",	"",	"Unit",	"57"]
   ]
 }
